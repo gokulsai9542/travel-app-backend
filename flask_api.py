@@ -266,12 +266,15 @@ def generate_itinerary():
         return jsonify({'success': False, 'error': str(e)}), 500
 
 if __name__ == '__main__':
+    import os
+    port = int(os.environ.get('PORT', 5000))
+    
     print("🚀 Starting Travel ML API Server...")
-    print("📍 API available at: http://localhost:5000")
+    print(f"📍 API available at port: {port}")
     print("\nEndpoints:")
     print("  - POST /api/predict")
     print("  - POST /api/batch_predict")
     print("  - POST /api/generate_itinerary")
     print("  - GET  /api/health")
     
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=port, debug=False)
