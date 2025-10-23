@@ -1,0 +1,195 @@
+{
+  "city": "Mumbai",
+  "places": [
+    {
+      "name": "Gateway of India",
+      "category": "attraction",
+      "rating": 4.6,
+      "opening_hours": "00:00",
+      "closing_hours": "23:59",
+      "address": "Apollo Bandar, Colaba, Mumbai, Maharashtra 400001",
+      "lat": 18.9220,
+      "lng": 72.8347
+    },
+    {
+      "name": "Marine Drive",
+      "category": "attraction",
+      "rating": 4.5,
+      "opening_hours": "00:00",
+      "closing_hours": "23:59",
+      "address": "Netaji Subhashchandra Bose Road, Mumbai, Maharashtra 400020",
+      "lat": 18.9432,
+      "lng": 72.8236
+    },
+    {
+      "name": "Elephanta Caves",
+      "category": "attraction",
+      "rating": 4.4,
+      "opening_hours": "09:00",
+      "closing_hours": "17:30",
+      "address": "Elephanta Island, Mumbai, Maharashtra 400094",
+      "lat": 18.9633,
+      "lng": 72.9315
+    },
+    {
+      "name": "Chhatrapati Shivaji Terminus",
+      "category": "attraction",
+      "rating": 4.5,
+      "opening_hours": "00:00",
+      "closing_hours": "23:59",
+      "address": "Chhatrapati Shivaji Terminus Area, Mumbai, Maharashtra 400001",
+      "lat": 18.9398,
+      "lng": 72.8355
+    },
+    {
+      "name": "Haji Ali Dargah",
+      "category": "attraction",
+      "rating": 4.6,
+      "opening_hours": "05:30",
+      "closing_hours": "22:00",
+      "address": "Dargah Road, Haji Ali, Mumbai, Maharashtra 400034",
+      "lat": 18.9826,
+      "lng": 72.8089
+    },
+    {
+      "name": "Sanjay Gandhi National Park",
+      "category": "attraction",
+      "rating": 4.3,
+      "opening_hours": "07:30",
+      "closing_hours": "18:00",
+      "address": "Borivali East, Mumbai, Maharashtra 400066",
+      "lat": 19.2147,
+      "lng": 72.9101
+    },
+    {
+      "name": "Siddhivinayak Temple",
+      "category": "attraction",
+      "rating": 4.7,
+      "opening_hours": "05:30",
+      "closing_hours": "21:40",
+      "address": "Prabhadevi, Mumbai, Maharashtra 400028",
+      "lat": 19.0176,
+      "lng": 72.8301
+    },
+    {
+      "name": "Juhu Beach",
+      "category": "attraction",
+      "rating": 4.2,
+      "opening_hours": "00:00",
+      "closing_hours": "23:59",
+      "address": "Juhu Tara Road, Mumbai, Maharashtra 400049",
+      "lat": 19.0990,
+      "lng": 72.8265
+    },
+    {
+      "name": "Leopold Cafe",
+      "category": "food",
+      "rating": 4.2,
+      "opening_hours": "08:00",
+      "closing_hours": "00:30",
+      "address": "Colaba Causeway, Mumbai, Maharashtra 400001",
+      "lat": 18.9220,
+      "lng": 72.8310
+    },
+    {
+      "name": "Britannia & Co.",
+      "category": "food",
+      "rating": 4.3,
+      "opening_hours": "11:30",
+      "closing_hours": "16:00",
+      "address": "Ballard Estate, Mumbai, Maharashtra 400001",
+      "lat": 18.9398,
+      "lng": 72.8389
+    },
+    {
+      "name": "Trishna Restaurant",
+      "category": "food",
+      "rating": 4.5,
+      "opening_hours": "12:30",
+      "closing_hours": "23:30",
+      "address": "Kala Ghoda, Fort, Mumbai, Maharashtra 400001",
+      "lat": 18.9298,
+      "lng": 72.8322
+    },
+    {
+      "name": "Cafe Mondegar",
+      "category": "food",
+      "rating": 4.2,
+      "opening_hours": "08:00",
+      "closing_hours": "00:30",
+      "address": "Colaba Causeway, Mumbai, Maharashtra 400001",
+      "lat": 18.9220,
+      "lng": 72.8310
+    },
+    {
+      "name": "Bademiya",
+      "category": "food",
+      "rating": 4.4,
+      "opening_hours": "17:00",
+      "closing_hours": "03:00",
+      "address": "Tulloch Road, Colaba, Mumbai, Maharashtra 400001",
+      "lat": 18.9220,
+      "lng": 72.8310
+    },
+    {
+      "name": "Colaba Causeway",
+      "category": "shopping",
+      "rating": 4.3,
+      "opening_hours": "10:00",
+      "closing_hours": "21:30",
+      "address": "Colaba Causeway, Mumbai, Maharashtra 400001",
+      "lat": 18.9220,
+      "lng": 72.8310
+    },
+    {
+      "name": "Crawford Market",
+      "category": "shopping",
+      "rating": 4.2,
+      "opening_hours": "09:00",
+      "closing_hours": "20:00",
+      "address": "Lokmanya Tilak Marg, Mumbai, Maharashtra 400001",
+      "lat": 18.9465,
+      "lng": 72.8349
+    },
+    {
+      "name": "Phoenix Palladium",
+      "category": "shopping",
+      "rating": 4.5,
+      "opening_hours": "11:00",
+      "closing_hours": "23:00",
+      "address": "Lower Parel, Mumbai, Maharashtra 400013",
+      "lat": 19.0010,
+      "lng": 72.8278
+    },
+    {
+      "name": "Linking Road",
+      "category": "shopping",
+      "rating": 4.3,
+      "opening_hours": "10:00",
+      "closing_hours": "21:00",
+      "address": "Bandra West, Mumbai, Maharashtra 400050",
+      "lat": 19.0596,
+      "lng": 72.8295
+    },
+    {
+      "name": "Taj Mahal Palace",
+      "category": "hotel",
+      "rating": 4.8,
+      "opening_hours": "00:00",
+      "closing_hours": "23:59",
+      "address": "Apollo Bandar, Colaba, Mumbai, Maharashtra 400001",
+      "lat": 18.9220,
+      "lng": 72.8347
+    },
+    {
+      "name": "The Oberoi Mumbai",
+      "category": "hotel",
+      "rating": 4.8,
+      "opening_hours": "00:00",
+      "closing_hours": "23:59",
+      "address": "Nariman Point, Mumbai, Maharashtra 400021",
+      "lat": 18.9254,
+      "lng": 72.8198
+    }
+  ]
+}

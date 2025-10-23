@@ -1,0 +1,195 @@
+{
+  "city": "Bangalore",
+  "places": [
+    {
+      "name": "Lalbagh Botanical Garden",
+      "category": "attraction",
+      "rating": 4.6,
+      "opening_hours": "06:00",
+      "closing_hours": "19:00",
+      "address": "Mavalli, Bengaluru, Karnataka 560004",
+      "lat": 12.9507,
+      "lng": 77.5848
+    },
+    {
+      "name": "Bangalore Palace",
+      "category": "attraction",
+      "rating": 4.5,
+      "opening_hours": "10:00",
+      "closing_hours": "17:30",
+      "address": "Vasanth Nagar, Bengaluru, Karnataka 560052",
+      "lat": 12.9984,
+      "lng": 77.5920
+    },
+    {
+      "name": "Cubbon Park",
+      "category": "attraction",
+      "rating": 4.4,
+      "opening_hours": "06:00",
+      "closing_hours": "18:00",
+      "address": "Kasturba Road, Bengaluru, Karnataka 560001",
+      "lat": 12.9763,
+      "lng": 77.5929
+    },
+    {
+      "name": "ISKCON Temple",
+      "category": "attraction",
+      "rating": 4.7,
+      "opening_hours": "07:15",
+      "closing_hours": "20:00",
+      "address": "Hare Krishna Hill, Chord Road, Bengaluru, Karnataka 560010",
+      "lat": 12.9716,
+      "lng": 77.5946
+    },
+    {
+      "name": "Vidhana Soudha",
+      "category": "attraction",
+      "rating": 4.3,
+      "opening_hours": "09:00",
+      "closing_hours": "17:00",
+      "address": "Ambedkar Veedhi, Sampangi Rama Nagar, Bengaluru, Karnataka 560001",
+      "lat": 12.9796,
+      "lng": 77.5913
+    },
+    {
+      "name": "Bannerghatta National Park",
+      "category": "attraction",
+      "rating": 4.2,
+      "opening_hours": "09:30",
+      "closing_hours": "17:00",
+      "address": "Bannerghatta, Bengaluru, Karnataka 560083",
+      "lat": 12.7987,
+      "lng": 77.5788
+    },
+    {
+      "name": "Tipu Sultan's Summer Palace",
+      "category": "attraction",
+      "rating": 4.1,
+      "opening_hours": "08:30",
+      "closing_hours": "17:30",
+      "address": "Bangalore City, Bengaluru, Karnataka 560002",
+      "lat": 12.9591,
+      "lng": 77.5742
+    },
+    {
+      "name": "Wonderla Amusement Park",
+      "category": "attraction",
+      "rating": 4.5,
+      "opening_hours": "11:00",
+      "closing_hours": "18:00",
+      "address": "28th km, Mysore Road, Bengaluru, Karnataka 562109",
+      "lat": 12.8347,
+      "lng": 77.3991
+    },
+    {
+      "name": "MTR Restaurant",
+      "category": "food",
+      "rating": 4.4,
+      "opening_hours": "06:30",
+      "closing_hours": "22:00",
+      "address": "Lalbagh Road, Mavalli, Bengaluru, Karnataka 560004",
+      "lat": 12.9516,
+      "lng": 77.5844
+    },
+    {
+      "name": "Vidyarthi Bhavan",
+      "category": "food",
+      "rating": 4.3,
+      "opening_hours": "07:30",
+      "closing_hours": "14:30",
+      "address": "Gandhi Bazaar, Basavanagudi, Bengaluru, Karnataka 560004",
+      "lat": 12.9437,
+      "lng": 77.5744
+    },
+    {
+      "name": "Koshy's Restaurant",
+      "category": "food",
+      "rating": 4.2,
+      "opening_hours": "08:30",
+      "closing_hours": "23:00",
+      "address": "St. Mark's Road, Bengaluru, Karnataka 560001",
+      "lat": 12.9716,
+      "lng": 77.6006
+    },
+    {
+      "name": "Toit Brewpub",
+      "category": "food",
+      "rating": 4.5,
+      "opening_hours": "12:00",
+      "closing_hours": "23:30",
+      "address": "Indiranagar, Bengaluru, Karnataka 560038",
+      "lat": 12.9716,
+      "lng": 77.6412
+    },
+    {
+      "name": "Truffles",
+      "category": "food",
+      "rating": 4.4,
+      "opening_hours": "12:00",
+      "closing_hours": "23:00",
+      "address": "Koramangala, Bengaluru, Karnataka 560034",
+      "lat": 12.9352,
+      "lng": 77.6245
+    },
+    {
+      "name": "Commercial Street",
+      "category": "shopping",
+      "rating": 4.3,
+      "opening_hours": "10:00",
+      "closing_hours": "21:00",
+      "address": "Commercial Street, Shivaji Nagar, Bengaluru, Karnataka 560001",
+      "lat": 12.9833,
+      "lng": 77.6089
+    },
+    {
+      "name": "Brigade Road",
+      "category": "shopping",
+      "rating": 4.2,
+      "opening_hours": "10:00",
+      "closing_hours": "21:30",
+      "address": "Brigade Road, Bengaluru, Karnataka 560001",
+      "lat": 12.9719,
+      "lng": 77.6054
+    },
+    {
+      "name": "UB City Mall",
+      "category": "shopping",
+      "rating": 4.4,
+      "opening_hours": "10:00",
+      "closing_hours": "22:00",
+      "address": "Vittal Mallya Road, Bengaluru, Karnataka 560001",
+      "lat": 12.9716,
+      "lng": 77.5946
+    },
+    {
+      "name": "Phoenix Marketcity",
+      "category": "shopping",
+      "rating": 4.5,
+      "opening_hours": "10:00",
+      "closing_hours": "22:00",
+      "address": "Whitefield, Bengaluru, Karnataka 560048",
+      "lat": 12.9986,
+      "lng": 77.6964
+    },
+    {
+      "name": "The Leela Palace",
+      "category": "hotel",
+      "rating": 4.8,
+      "opening_hours": "00:00",
+      "closing_hours": "23:59",
+      "address": "23, HAL Old Airport Road, Bengaluru, Karnataka 560008",
+      "lat": 12.9575,
+      "lng": 77.6533
+    },
+    {
+      "name": "Taj West End",
+      "category": "hotel",
+      "rating": 4.7,
+      "opening_hours": "00:00",
+      "closing_hours": "23:59",
+      "address": "Race Course Road, Bengaluru, Karnataka 560001",
+      "lat": 12.9897,
+      "lng": 77.5926
+    }
+  ]
+}

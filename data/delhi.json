@@ -1,0 +1,195 @@
+{
+  "city": "Delhi",
+  "places": [
+    {
+      "name": "Red Fort",
+      "category": "attraction",
+      "rating": 4.5,
+      "opening_hours": "09:30",
+      "closing_hours": "16:30",
+      "address": "Netaji Subhash Marg, Chandni Chowk, New Delhi, Delhi 110006",
+      "lat": 28.6562,
+      "lng": 77.2410
+    },
+    {
+      "name": "Qutub Minar",
+      "category": "attraction",
+      "rating": 4.6,
+      "opening_hours": "07:00",
+      "closing_hours": "17:00",
+      "address": "Mehrauli, New Delhi, Delhi 110030",
+      "lat": 28.5244,
+      "lng": 77.1855
+    },
+    {
+      "name": "India Gate",
+      "category": "attraction",
+      "rating": 4.7,
+      "opening_hours": "00:00",
+      "closing_hours": "23:59",
+      "address": "Rajpath, New Delhi, Delhi 110001",
+      "lat": 28.6129,
+      "lng": 77.2295
+    },
+    {
+      "name": "Lotus Temple",
+      "category": "attraction",
+      "rating": 4.6,
+      "opening_hours": "09:00",
+      "closing_hours": "17:30",
+      "address": "Lotus Temple Rd, Bahapur, New Delhi, Delhi 110019",
+      "lat": 28.5535,
+      "lng": 77.2588
+    },
+    {
+      "name": "Humayun's Tomb",
+      "category": "attraction",
+      "rating": 4.5,
+      "opening_hours": "06:00",
+      "closing_hours": "18:00",
+      "address": "Mathura Road, Nizamuddin, New Delhi, Delhi 110013",
+      "lat": 28.5933,
+      "lng": 77.2507
+    },
+    {
+      "name": "Akshardham Temple",
+      "category": "attraction",
+      "rating": 4.8,
+      "opening_hours": "09:30",
+      "closing_hours": "18:30",
+      "address": "Noida Link Rd, New Delhi, Delhi 110092",
+      "lat": 28.6127,
+      "lng": 77.2773
+    },
+    {
+      "name": "Jama Masjid",
+      "category": "attraction",
+      "rating": 4.4,
+      "opening_hours": "07:00",
+      "closing_hours": "21:00",
+      "address": "Chandni Chowk, New Delhi, Delhi 110006",
+      "lat": 28.6507,
+      "lng": 77.2334
+    },
+    {
+      "name": "Raj Ghat",
+      "category": "attraction",
+      "rating": 4.3,
+      "opening_hours": "05:30",
+      "closing_hours": "19:30",
+      "address": "Ring Rd, New Delhi, Delhi 110006",
+      "lat": 28.6410,
+      "lng": 77.2502
+    },
+    {
+      "name": "Karim's Restaurant",
+      "category": "food",
+      "rating": 4.3,
+      "opening_hours": "06:00",
+      "closing_hours": "23:00",
+      "address": "Jama Masjid, Chandni Chowk, New Delhi, Delhi 110006",
+      "lat": 28.6507,
+      "lng": 77.2334
+    },
+    {
+      "name": "Bukhara Restaurant",
+      "category": "food",
+      "rating": 4.6,
+      "opening_hours": "12:30",
+      "closing_hours": "23:45",
+      "address": "ITC Maurya, Diplomatic Enclave, New Delhi, Delhi 110021",
+      "lat": 28.5967,
+      "lng": 77.1654
+    },
+    {
+      "name": "Indian Accent",
+      "category": "food",
+      "rating": 4.7,
+      "opening_hours": "12:00",
+      "closing_hours": "23:00",
+      "address": "The Lodhi, Lodhi Road, New Delhi, Delhi 110003",
+      "lat": 28.5933,
+      "lng": 77.2176
+    },
+    {
+      "name": "Moti Mahal",
+      "category": "food",
+      "rating": 4.2,
+      "opening_hours": "11:00",
+      "closing_hours": "23:00",
+      "address": "Daryaganj, New Delhi, Delhi 110002",
+      "lat": 28.6507,
+      "lng": 77.2410
+    },
+    {
+      "name": "Saravana Bhavan",
+      "category": "food",
+      "rating": 4.4,
+      "opening_hours": "08:00",
+      "closing_hours": "23:00",
+      "address": "Connaught Place, New Delhi, Delhi 110001",
+      "lat": 28.6315,
+      "lng": 77.2167
+    },
+    {
+      "name": "Connaught Place",
+      "category": "shopping",
+      "rating": 4.3,
+      "opening_hours": "10:00",
+      "closing_hours": "21:00",
+      "address": "Connaught Place, New Delhi, Delhi 110001",
+      "lat": 28.6315,
+      "lng": 77.2167
+    },
+    {
+      "name": "Chandni Chowk Market",
+      "category": "shopping",
+      "rating": 4.2,
+      "opening_hours": "10:00",
+      "closing_hours": "20:00",
+      "address": "Chandni Chowk, New Delhi, Delhi 110006",
+      "lat": 28.6507,
+      "lng": 77.2310
+    },
+    {
+      "name": "Select Citywalk Mall",
+      "category": "shopping",
+      "rating": 4.5,
+      "opening_hours": "10:00",
+      "closing_hours": "22:00",
+      "address": "Saket, New Delhi, Delhi 110017",
+      "lat": 28.5244,
+      "lng": 77.2066
+    },
+    {
+      "name": "Dilli Haat",
+      "category": "shopping",
+      "rating": 4.4,
+      "opening_hours": "10:30",
+      "closing_hours": "22:00",
+      "address": "INA, New Delhi, Delhi 110023",
+      "lat": 28.5678,
+      "lng": 77.2066
+    },
+    {
+      "name": "The Leela Palace",
+      "category": "hotel",
+      "rating": 4.9,
+      "opening_hours": "00:00",
+      "closing_hours": "23:59",
+      "address": "Diplomatic Enclave, Chanakyapuri, New Delhi, Delhi 110023",
+      "lat": 28.5967,
+      "lng": 77.1654
+    },
+    {
+      "name": "The Oberoi",
+      "category": "hotel",
+      "rating": 4.8,
+      "opening_hours": "00:00",
+      "closing_hours": "23:59",
+      "address": "Dr Zakir Hussain Marg, New Delhi, Delhi 110003",
+      "lat": 28.5933,
+      "lng": 77.2176
+    }
+  ]
+}

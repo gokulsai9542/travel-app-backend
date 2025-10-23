@@ -1,0 +1,195 @@
+{
+  "city": "Hyderabad",
+  "places": [
+    {
+      "name": "Charminar",
+      "category": "attraction",
+      "rating": 4.5,
+      "opening_hours": "09:00",
+      "closing_hours": "17:30",
+      "address": "Charminar Road, Hyderabad, Telangana 500002",
+      "lat": 17.3616,
+      "lng": 78.4747
+    },
+    {
+      "name": "Golconda Fort",
+      "category": "attraction",
+      "rating": 4.6,
+      "opening_hours": "09:00",
+      "closing_hours": "17:30",
+      "address": "Khair Complex, Ibrahim Bagh, Hyderabad, Telangana 500008",
+      "lat": 17.3833,
+      "lng": 78.4011
+    },
+    {
+      "name": "Ramoji Film City",
+      "category": "attraction",
+      "rating": 4.7,
+      "opening_hours": "09:00",
+      "closing_hours": "17:30",
+      "address": "Anaspur Village, Hyderabad, Telangana 501512",
+      "lat": 17.2543,
+      "lng": 78.6808
+    },
+    {
+      "name": "Hussain Sagar Lake",
+      "category": "attraction",
+      "rating": 4.3,
+      "opening_hours": "06:00",
+      "closing_hours": "21:00",
+      "address": "Tank Bund Road, Hyderabad, Telangana 500080",
+      "lat": 17.4239,
+      "lng": 78.4738
+    },
+    {
+      "name": "Salar Jung Museum",
+      "category": "attraction",
+      "rating": 4.4,
+      "opening_hours": "10:00",
+      "closing_hours": "17:00",
+      "address": "Darulshifa, Hyderabad, Telangana 500002",
+      "lat": 17.3713,
+      "lng": 78.4804
+    },
+    {
+      "name": "Birla Mandir",
+      "category": "attraction",
+      "rating": 4.5,
+      "opening_hours": "07:00",
+      "closing_hours": "20:00",
+      "address": "Hill Fort Road, Hyderabad, Telangana 500004",
+      "lat": 17.4062,
+      "lng": 78.4691
+    },
+    {
+      "name": "Chowmahalla Palace",
+      "category": "attraction",
+      "rating": 4.4,
+      "opening_hours": "10:00",
+      "closing_hours": "17:00",
+      "address": "Khilwat, Hyderabad, Telangana 500002",
+      "lat": 17.3594,
+      "lng": 78.4738
+    },
+    {
+      "name": "Nehru Zoological Park",
+      "category": "attraction",
+      "rating": 4.2,
+      "opening_hours": "08:30",
+      "closing_hours": "17:00",
+      "address": "Bahadurpura, Hyderabad, Telangana 500064",
+      "lat": 17.3501,
+      "lng": 78.4514
+    },
+    {
+      "name": "Paradise Restaurant",
+      "category": "food",
+      "rating": 4.3,
+      "opening_hours": "11:00",
+      "closing_hours": "23:00",
+      "address": "Secunderabad, Hyderabad, Telangana 500003",
+      "lat": 17.4399,
+      "lng": 78.4983
+    },
+    {
+      "name": "Bawarchi Restaurant",
+      "category": "food",
+      "rating": 4.2,
+      "opening_hours": "11:30",
+      "closing_hours": "23:30",
+      "address": "RTC X Roads, Hyderabad, Telangana 500020",
+      "lat": 17.4399,
+      "lng": 78.4983
+    },
+    {
+      "name": "Shah Ghouse Cafe",
+      "category": "food",
+      "rating": 4.4,
+      "opening_hours": "11:00",
+      "closing_hours": "23:30",
+      "address": "Tolichowki, Hyderabad, Telangana 500008",
+      "lat": 17.4021,
+      "lng": 78.4095
+    },
+    {
+      "name": "Ohri's Jiva Imperia",
+      "category": "food",
+      "rating": 4.3,
+      "opening_hours": "12:00",
+      "closing_hours": "23:00",
+      "address": "Hitech City, Hyderabad, Telangana 500081",
+      "lat": 17.4435,
+      "lng": 78.3772
+    },
+    {
+      "name": "Chutneys Restaurant",
+      "category": "food",
+      "rating": 4.4,
+      "opening_hours": "07:00",
+      "closing_hours": "22:30",
+      "address": "Banjara Hills, Hyderabad, Telangana 500034",
+      "lat": 17.4239,
+      "lng": 78.4482
+    },
+    {
+      "name": "Laad Bazaar",
+      "category": "shopping",
+      "rating": 4.3,
+      "opening_hours": "10:00",
+      "closing_hours": "21:00",
+      "address": "Charminar, Hyderabad, Telangana 500002",
+      "lat": 17.3616,
+      "lng": 78.4747
+    },
+    {
+      "name": "Inorbit Mall",
+      "category": "shopping",
+      "rating": 4.4,
+      "opening_hours": "10:00",
+      "closing_hours": "22:00",
+      "address": "Madhapur, Hyderabad, Telangana 500081",
+      "lat": 17.4435,
+      "lng": 78.3772
+    },
+    {
+      "name": "GVK One Mall",
+      "category": "shopping",
+      "rating": 4.3,
+      "opening_hours": "10:00",
+      "closing_hours": "22:00",
+      "address": "Banjara Hills, Hyderabad, Telangana 500034",
+      "lat": 17.4239,
+      "lng": 78.4482
+    },
+    {
+      "name": "Shilparamam",
+      "category": "shopping",
+      "rating": 4.2,
+      "opening_hours": "10:30",
+      "closing_hours": "21:00",
+      "address": "Madhapur, Hyderabad, Telangana 500081",
+      "lat": 17.4435,
+      "lng": 78.3772
+    },
+    {
+      "name": "Taj Falaknuma Palace",
+      "category": "hotel",
+      "rating": 4.9,
+      "opening_hours": "00:00",
+      "closing_hours": "23:59",
+      "address": "Engine Bowli, Falaknuma, Hyderabad, Telangana 500053",
+      "lat": 17.3281,
+      "lng": 78.4641
+    },
+    {
+      "name": "ITC Kakatiya",
+      "category": "hotel",
+      "rating": 4.7,
+      "opening_hours": "00:00",
+      "closing_hours": "23:59",
+      "address": "Begumpet, Hyderabad, Telangana 500016",
+      "lat": 17.4399,
+      "lng": 78.4669
+    }
+  ]
+}

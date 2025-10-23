@@ -1,0 +1,195 @@
+{
+  "city": "Goa",
+  "places": [
+    {
+      "name": "Baga Beach",
+      "category": "attraction",
+      "rating": 4.4,
+      "opening_hours": "00:00",
+      "closing_hours": "23:59",
+      "address": "Baga, Goa 403516",
+      "lat": 15.5559,
+      "lng": 73.7517
+    },
+    {
+      "name": "Basilica of Bom Jesus",
+      "category": "attraction",
+      "rating": 4.6,
+      "opening_hours": "09:00",
+      "closing_hours": "18:30",
+      "address": "Old Goa, Goa 403402",
+      "lat": 15.5008,
+      "lng": 73.9113
+    },
+    {
+      "name": "Fort Aguada",
+      "category": "attraction",
+      "rating": 4.5,
+      "opening_hours": "09:30",
+      "closing_hours": "18:00",
+      "address": "Candolim, Goa 403515",
+      "lat": 15.4909,
+      "lng": 73.7730
+    },
+    {
+      "name": "Dudhsagar Falls",
+      "category": "attraction",
+      "rating": 4.7,
+      "opening_hours": "06:00",
+      "closing_hours": "18:00",
+      "address": "Mollem, Goa 403410",
+      "lat": 15.3144,
+      "lng": 74.3144
+    },
+    {
+      "name": "Anjuna Beach",
+      "category": "attraction",
+      "rating": 4.3,
+      "opening_hours": "00:00",
+      "closing_hours": "23:59",
+      "address": "Anjuna, Goa 403509",
+      "lat": 15.5735,
+      "lng": 73.7401
+    },
+    {
+      "name": "Calangute Beach",
+      "category": "attraction",
+      "rating": 4.2,
+      "opening_hours": "00:00",
+      "closing_hours": "23:59",
+      "address": "Calangute, Goa 403516",
+      "lat": 15.5460,
+      "lng": 73.7551
+    },
+    {
+      "name": "Se Cathedral",
+      "category": "attraction",
+      "rating": 4.5,
+      "opening_hours": "07:30",
+      "closing_hours": "18:00",
+      "address": "Old Goa, Goa 403402",
+      "lat": 15.5008,
+      "lng": 73.9113
+    },
+    {
+      "name": "Chapora Fort",
+      "category": "attraction",
+      "rating": 4.3,
+      "opening_hours": "08:00",
+      "closing_hours": "17:30",
+      "address": "Chapora, Goa 403509",
+      "lat": 15.6003,
+      "lng": 73.7364
+    },
+    {
+      "name": "Thalassa",
+      "category": "food",
+      "rating": 4.6,
+      "opening_hours": "12:00",
+      "closing_hours": "23:30",
+      "address": "Siolim, Goa 403517",
+      "lat": 15.5969,
+      "lng": 73.7598
+    },
+    {
+      "name": "Pousada by the Beach",
+      "category": "food",
+      "rating": 4.5,
+      "opening_hours": "12:00",
+      "closing_hours": "23:00",
+      "address": "Calangute, Goa 403516",
+      "lat": 15.5460,
+      "lng": 73.7551
+    },
+    {
+      "name": "Fisherman's Wharf",
+      "category": "food",
+      "rating": 4.4,
+      "opening_hours": "12:00",
+      "closing_hours": "23:30",
+      "address": "Cavelossim, Goa 403731",
+      "lat": 15.1667,
+      "lng": 73.9333
+    },
+    {
+      "name": "Britto's",
+      "category": "food",
+      "rating": 4.3,
+      "opening_hours": "08:00",
+      "closing_hours": "23:00",
+      "address": "Baga Beach, Goa 403516",
+      "lat": 15.5559,
+      "lng": 73.7517
+    },
+    {
+      "name": "Vinayak Family Restaurant",
+      "category": "food",
+      "rating": 4.2,
+      "opening_hours": "11:00",
+      "closing_hours": "23:00",
+      "address": "Assagao, Goa 403507",
+      "lat": 15.5969,
+      "lng": 73.7711
+    },
+    {
+      "name": "Anjuna Flea Market",
+      "category": "shopping",
+      "rating": 4.4,
+      "opening_hours": "08:00",
+      "closing_hours": "19:00",
+      "address": "Anjuna, Goa 403509",
+      "lat": 15.5735,
+      "lng": 73.7401
+    },
+    {
+      "name": "Mapusa Market",
+      "category": "shopping",
+      "rating": 4.2,
+      "opening_hours": "08:00",
+      "closing_hours": "20:00",
+      "address": "Mapusa, Goa 403507",
+      "lat": 15.5969,
+      "lng": 73.8086
+    },
+    {
+      "name": "Saturday Night Market",
+      "category": "shopping",
+      "rating": 4.3,
+      "opening_hours": "18:00",
+      "closing_hours": "23:30",
+      "address": "Arpora, Goa 403516",
+      "lat": 15.5735,
+      "lng": 73.7598
+    },
+    {
+      "name": "Mackie's Night Bazaar",
+      "category": "shopping",
+      "rating": 4.1,
+      "opening_hours": "18:00",
+      "closing_hours": "23:00",
+      "address": "Baga, Goa 403516",
+      "lat": 15.5559,
+      "lng": 73.7517
+    },
+    {
+      "name": "Taj Exotica",
+      "category": "hotel",
+      "rating": 4.7,
+      "opening_hours": "00:00",
+      "closing_hours": "23:59",
+      "address": "Benaulim, Goa 403716",
+      "lat": 15.2667,
+      "lng": 73.9167
+    },
+    {
+      "name": "The Leela Goa",
+      "category": "hotel",
+      "rating": 4.8,
+      "opening_hours": "00:00",
+      "closing_hours": "23:59",
+      "address": "Cavelossim, Goa 403731",
+      "lat": 15.1667,
+      "lng": 73.9333
+    }
+  ]
+}
