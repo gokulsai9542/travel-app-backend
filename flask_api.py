@@ -5,7 +5,8 @@ import json
 import os
 import requests
 from datetime import datetime, timedelta
-
+#importing RandomForestRegressor
+from sklearn.ensemble import RandomForestRegressor
 app = Flask(__name__)
 CORS(app)
 
