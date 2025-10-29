@@ -1,6 +1,8 @@
 import json
 import os
 import sys
+import numpy as np
+import pandas as pd
 from models.travel_model import TravelTimePredictionModel
 
 def load_json_files(data_dir='data'):
@@ -40,7 +42,7 @@ def main():
     print(f"\n📊 Loaded {len(json_files)} destination files")
     
     # Initialize model
-    print("\n🤖 Initializing model...")
+    print("\n🤖 Initializing TravelTimePredictionModel...")
     model = TravelTimePredictionModel()
     
     # Prepare training data
@@ -49,10 +51,18 @@ def main():
     
     # Save training data for inspection
     training_df.to_csv('training_data.csv', index=False)
-    print(f"💾 Training data saved to training_data.csv")
+    print(f"💾 Training data saved to training_data.csv ({len(training_df)} records)")
+    
+    # Display data summary
+    print(f"\n📊 Data Summary:")
+    print(f"  - Total training samples: {len(training_df)}")
+    print(f"  - Categories: {training_df['category'].unique().tolist()}")
+    print(f"  - Preferences: {training_df['preference'].unique().tolist()}")
+    print(f"  - Avg visit duration: {training_df['visit_duration_minutes'].mean():.1f} minutes")
+    print(f"  - Avg personalized rating: {training_df['personalized_rating'].mean():.2f}")
     
     # Train model
-    print("\n🎓 Training models...")
+    print("\n🎓 Training Random Forest models...")
     model.train(training_df)
     
     # Test predictions
@@ -61,18 +71,21 @@ def main():
     print("="*60)
     
     test_cases = [
-        ("attraction", "Solo", 4.6),
-        ("attraction", "Family", 4.5),
-        ("food", "Couple", 4.4),
-        ("shopping", "Friends", 4.2)
+        {'category': 'attraction', 'preference': 'Solo', 'rating': 4.5},
+        {'category': 'food', 'preference': 'Couple', 'rating': 4.2},
+        {'category': 'shopping', 'preference': 'Family', 'rating': 3.8},
+        {'category': 'attraction', 'preference': 'Friends', 'rating': 4.7}
     ]
     
-    for category, preference, rating in test_cases:
-        prediction = model.predict(category, preference, rating)
-        print(f"\n{category.upper()} | {preference} | Rating: {rating}")
-        print(f"  ⏱️  Duration: {prediction['visit_duration_hours']} hours "
-              f"({prediction['visit_duration_minutes']} min)")
-        print(f"  ⭐ Personalized: {prediction['personalized_rating']}/5.0")
+    for test in test_cases:
+        prediction = model.predict(
+            test['category'],
+            test['preference'],
+            test['rating']
+        )
+        print(f"\n{test['category'].title()} | {test['preference']} | Base Rating: {test['rating']}")
+        print(f"  ⏱️  Visit Duration: {prediction['visit_duration_minutes']} minutes ({prediction['visit_duration_hours']} hours)")
+        print(f"  ⭐ Personalized Rating: {prediction['personalized_rating']}")
     
     # Save model
     print("\n" + "="*60)
@@ -84,9 +97,13 @@ def main():
     print("\n📝 Files created:")
     print("  - travel_model.pkl (trained model)")
     print("  - training_data.csv (training data)")
-    print("\n🎯 Next steps:")
-    print("  1. Start Flask API: python flask_api.py")
-    print("  2. Test API: curl http://localhost:5000/api/health")
+    print("\n🎯 Model Features:")
+    print("  - Random Forest Regressor (100 estimators)")
+    print("  - Visit duration prediction")
+    print("  - Personalized rating prediction")
+    print("\n💡 Next steps:")
+    print("  1. Use model.load_model('travel_model.pkl') to load")
+    print("  2. Use model.predict(category, preference, base_rating) for predictions")
 
 if __name__ == "__main__":
     main()
