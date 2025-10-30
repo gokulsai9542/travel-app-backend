@@ -192,9 +192,11 @@ class TravelTimePredictionModel:
     def save_model(self, filename='travel_model.pkl'):
         """Save trained model to file"""
         model_data = {
-            'duration_model': self.duration_model,
+            'time_model': self.duration_model,
             'rating_model': self.rating_model,
+            'label_encoders': {                      # Changed from 'feature_columns'
             'feature_columns': self.feature_columns
+        }
         }
         with open(filename, 'wb') as f:
             pickle.dump(model_data, f)
@@ -204,9 +206,9 @@ class TravelTimePredictionModel:
         """Load trained model from file"""
         with open(filename, 'rb') as f:
             model_data = pickle.load(f)
-        self.duration_model = model_data['duration_model']
+        self.duration_model = model_data['time_model']        
         self.rating_model = model_data['rating_model']
-        self.feature_columns = model_data.get('feature_columns')
+        self.feature_columns = model_data.get('label_encoders', {}).get('feature_columns')  # Changed
         print(f"✅ Model loaded from {filename}")
 
 
