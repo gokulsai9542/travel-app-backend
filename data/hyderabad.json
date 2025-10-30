@@ -1,195 +1,362 @@
-{
-  "city": "Hyderabad",
-  "places": [
-    {
-      "name": "Charminar",
-      "category": "attraction",
-      "rating": 4.5,
-      "opening_hours": "09:00",
-      "closing_hours": "17:30",
-      "address": "Charminar Road, Hyderabad, Telangana 500002",
+ [
+  {
+    "name": "Charminar",
+    "description": "Iconic 400-year-old monument with four minarets, symbol of Hyderabad and architectural masterpiece.",
+    "category": "attraction",
+    "entry_fee": 25,
+    "rating": 4.5,
+    "average_time": 90,
+    "best_time_to_visit": "Evening",
+    "tags": ["Landmark", "Heritage", "Architecture", "Photography", "Shopping"],
+    "coordinates": {
       "lat": 17.3616,
       "lng": 78.4747
     },
-    {
-      "name": "Golconda Fort",
-      "category": "attraction",
-      "rating": 4.6,
-      "opening_hours": "09:00",
-      "closing_hours": "17:30",
-      "address": "Khair Complex, Ibrahim Bagh, Hyderabad, Telangana 500008",
+    "opening_hours": "09:30",
+    "closing_hours": "17:30",
+    "image_url": "https://example.com/charminar.jpg",
+    "address": "Charminar Road, Hyderabad, Telangana 500002"
+  },
+  {
+    "name": "Golconda Fort",
+    "description": "Magnificent 13th-century fort with acoustic engineering marvel, light and sound show, and panoramic views.",
+    "category": "attraction",
+    "entry_fee": 25,
+    "rating": 4.6,
+    "average_time": 180,
+    "best_time_to_visit": "Morning",
+    "tags": ["Fort", "Heritage", "Architecture", "History", "Light Show"],
+    "coordinates": {
       "lat": 17.3833,
       "lng": 78.4011
     },
-    {
-      "name": "Ramoji Film City",
-      "category": "attraction",
-      "rating": 4.7,
-      "opening_hours": "09:00",
-      "closing_hours": "17:30",
-      "address": "Anaspur Village, Hyderabad, Telangana 501512",
+    "opening_hours": "09:00",
+    "closing_hours": "17:30",
+    "image_url": "https://example.com/golconda-fort.jpg",
+    "address": "Golconda, Hyderabad, Telangana 500008"
+  },
+  {
+    "name": "Ramoji Film City",
+    "description": "World's largest film city with guided tours, shows, gardens, and movie sets spread across 2000 acres.",
+    "category": "attraction",
+    "entry_fee": 1150,
+    "rating": 4.5,
+    "average_time": 360,
+    "best_time_to_visit": "Morning",
+    "tags": ["Film Studio", "Entertainment", "Family", "Tours", "Photography"],
+    "coordinates": {
       "lat": 17.2543,
       "lng": 78.6808
     },
-    {
-      "name": "Hussain Sagar Lake",
-      "category": "attraction",
-      "rating": 4.3,
-      "opening_hours": "06:00",
-      "closing_hours": "21:00",
-      "address": "Tank Bund Road, Hyderabad, Telangana 500080",
+    "opening_hours": "09:00",
+    "closing_hours": "19:30",
+    "image_url": "https://example.com/ramoji-film-city.jpg",
+    "address": "Abdullahpurmet, Hyderabad, Telangana 501512"
+  },
+  {
+    "name": "Hussain Sagar Lake",
+    "description": "Heart-shaped lake with massive Buddha statue in center, offering boat rides and waterfront promenades.",
+    "category": "attraction",
+    "entry_fee": 0,
+    "rating": 4.3,
+    "average_time": 120,
+    "best_time_to_visit": "Evening",
+    "tags": ["Lake", "Boating", "Sunset", "Family", "Photography"],
+    "coordinates": {
       "lat": 17.4239,
       "lng": 78.4738
     },
-    {
-      "name": "Salar Jung Museum",
-      "category": "attraction",
-      "rating": 4.4,
-      "opening_hours": "10:00",
-      "closing_hours": "17:00",
-      "address": "Darulshifa, Hyderabad, Telangana 500002",
+    "opening_hours": "09:00",
+    "closing_hours": "21:00",
+    "image_url": "https://example.com/hussain-sagar.jpg",
+    "address": "Tank Bund Road, Hyderabad, Telangana 500080"
+  },
+  {
+    "name": "Chowmahalla Palace",
+    "description": "Magnificent Nizam palace complex showcasing grandeur with chandeliers, gardens, and vintage car collection.",
+    "category": "attraction",
+    "entry_fee": 80,
+    "rating": 4.5,
+    "average_time": 120,
+    "best_time_to_visit": "Morning",
+    "tags": ["Palace", "Heritage", "Architecture", "Museum", "Royal"],
+    "coordinates": {
+      "lat": 17.3564,
+      "lng": 78.4702
+    },
+    "opening_hours": "10:00",
+    "closing_hours": "17:00",
+    "image_url": "https://example.com/chowmahalla.jpg",
+    "address": "Khilwat, Hyderabad, Telangana 500002"
+  },
+  {
+    "name": "Salar Jung Museum",
+    "description": "One of India's largest museums with over 1 million artifacts including sculptures, paintings, and antiques.",
+    "category": "attraction",
+    "entry_fee": 20,
+    "rating": 4.4,
+    "average_time": 180,
+    "best_time_to_visit": "Morning",
+    "tags": ["Museum", "History", "Art", "Culture", "Education"],
+    "coordinates": {
       "lat": 17.3713,
       "lng": 78.4804
     },
-    {
-      "name": "Birla Mandir",
-      "category": "attraction",
-      "rating": 4.5,
-      "opening_hours": "07:00",
-      "closing_hours": "20:00",
-      "address": "Hill Fort Road, Hyderabad, Telangana 500004",
+    "opening_hours": "10:00",
+    "closing_hours": "17:00",
+    "image_url": "https://example.com/salar-jung.jpg",
+    "address": "Darulshifa, Hyderabad, Telangana 500002"
+  },
+  {
+    "name": "Birla Mandir",
+    "description": "White marble temple dedicated to Lord Venkateswara atop hillock with stunning city views.",
+    "category": "attraction",
+    "entry_fee": 0,
+    "rating": 4.5,
+    "average_time": 90,
+    "best_time_to_visit": "Evening",
+    "tags": ["Religious", "Temple", "Architecture", "Panoramic Views", "Peace"],
+    "coordinates": {
       "lat": 17.4062,
       "lng": 78.4691
     },
-    {
-      "name": "Chowmahalla Palace",
-      "category": "attraction",
-      "rating": 4.4,
-      "opening_hours": "10:00",
-      "closing_hours": "17:00",
-      "address": "Khilwat, Hyderabad, Telangana 500002",
-      "lat": 17.3594,
-      "lng": 78.4738
+    "opening_hours": "07:00",
+    "closing_hours": "12:00",
+    "image_url": "https://example.com/birla-mandir-hyd.jpg",
+    "address": "Naubat Pahad, Hyderabad, Telangana 500063"
+  },
+  {
+    "name": "Nehru Zoological Park",
+    "description": "Large zoo housing diverse wildlife species, lion safari, and natural habitats spread across 380 acres.",
+    "category": "attraction",
+    "entry_fee": 50,
+    "rating": 4.2,
+    "average_time": 240,
+    "best_time_to_visit": "Morning",
+    "tags": ["Zoo", "Wildlife", "Family", "Safari", "Nature"],
+    "coordinates": {
+      "lat": 17.3495,
+      "lng": 78.4513
     },
-    {
-      "name": "Nehru Zoological Park",
-      "category": "attraction",
-      "rating": 4.2,
-      "opening_hours": "08:30",
-      "closing_hours": "17:00",
-      "address": "Bahadurpura, Hyderabad, Telangana 500064",
-      "lat": 17.3501,
-      "lng": 78.4514
-    },
-    {
-      "name": "Paradise Restaurant",
-      "category": "food",
-      "rating": 4.3,
-      "opening_hours": "11:00",
-      "closing_hours": "23:00",
-      "address": "Secunderabad, Hyderabad, Telangana 500003",
+    "opening_hours": "08:30",
+    "closing_hours": "17:00",
+    "image_url": "https://example.com/nehru-zoo.jpg",
+    "address": "Bahadurpura, Hyderabad, Telangana 500064"
+  },
+  {
+    "name": "Paradise Restaurant",
+    "description": "Legendary restaurant chain famous for authentic Hyderabadi biryani since 1953, a must-visit for foodies.",
+    "category": "food",
+    "entry_fee": 500,
+    "rating": 4.4,
+    "average_time": 75,
+    "best_time_to_visit": "Afternoon",
+    "tags": ["Hyderabadi Cuisine", "Biryani", "Heritage", "Non-Veg", "Popular"],
+    "coordinates": {
       "lat": 17.4399,
       "lng": 78.4983
     },
-    {
-      "name": "Bawarchi Restaurant",
-      "category": "food",
-      "rating": 4.2,
-      "opening_hours": "11:30",
-      "closing_hours": "23:30",
-      "address": "RTC X Roads, Hyderabad, Telangana 500020",
-      "lat": 17.4399,
-      "lng": 78.4983
-    },
-    {
-      "name": "Shah Ghouse Cafe",
-      "category": "food",
-      "rating": 4.4,
-      "opening_hours": "11:00",
-      "closing_hours": "23:30",
-      "address": "Tolichowki, Hyderabad, Telangana 500008",
-      "lat": 17.4021,
-      "lng": 78.4095
-    },
-    {
-      "name": "Ohri's Jiva Imperia",
-      "category": "food",
-      "rating": 4.3,
-      "opening_hours": "12:00",
-      "closing_hours": "23:00",
-      "address": "Hitech City, Hyderabad, Telangana 500081",
-      "lat": 17.4435,
-      "lng": 78.3772
-    },
-    {
-      "name": "Chutneys Restaurant",
-      "category": "food",
-      "rating": 4.4,
-      "opening_hours": "07:00",
-      "closing_hours": "22:30",
-      "address": "Banjara Hills, Hyderabad, Telangana 500034",
-      "lat": 17.4239,
-      "lng": 78.4482
-    },
-    {
-      "name": "Laad Bazaar",
-      "category": "shopping",
-      "rating": 4.3,
-      "opening_hours": "10:00",
-      "closing_hours": "21:00",
-      "address": "Charminar, Hyderabad, Telangana 500002",
+    "opening_hours": "11:00",
+    "closing_hours": "23:30",
+    "image_url": "https://example.com/paradise-hyd.jpg",
+    "address": "Multiple locations, Hyderabad"
+  },
+  {
+    "name": "Shah Ghouse Cafe",
+    "description": "Famous for authentic Hyderabadi biryani and haleem, popular among locals for spicy flavors.",
+    "category": "food",
+    "entry_fee": 400,
+    "rating": 4.3,
+    "average_time": 60,
+    "best_time_to_visit": "Afternoon",
+    "tags": ["Hyderabadi Cuisine", "Biryani", "Haleem", "Non-Veg", "Local"],
+    "coordinates": {
       "lat": 17.3616,
       "lng": 78.4747
     },
-    {
-      "name": "Inorbit Mall",
-      "category": "shopping",
-      "rating": 4.4,
-      "opening_hours": "10:00",
-      "closing_hours": "22:00",
-      "address": "Madhapur, Hyderabad, Telangana 500081",
-      "lat": 17.4435,
-      "lng": 78.3772
-    },
-    {
-      "name": "GVK One Mall",
-      "category": "shopping",
-      "rating": 4.3,
-      "opening_hours": "10:00",
-      "closing_hours": "22:00",
-      "address": "Banjara Hills, Hyderabad, Telangana 500034",
-      "lat": 17.4239,
-      "lng": 78.4482
-    },
-    {
-      "name": "Shilparamam",
-      "category": "shopping",
-      "rating": 4.2,
-      "opening_hours": "10:30",
-      "closing_hours": "21:00",
-      "address": "Madhapur, Hyderabad, Telangana 500081",
-      "lat": 17.4435,
-      "lng": 78.3772
-    },
-    {
-      "name": "Taj Falaknuma Palace",
-      "category": "hotel",
-      "rating": 4.9,
-      "opening_hours": "00:00",
-      "closing_hours": "23:59",
-      "address": "Engine Bowli, Falaknuma, Hyderabad, Telangana 500053",
-      "lat": 17.3281,
-      "lng": 78.4641
-    },
-    {
-      "name": "ITC Kakatiya",
-      "category": "hotel",
-      "rating": 4.7,
-      "opening_hours": "00:00",
-      "closing_hours": "23:59",
-      "address": "Begumpet, Hyderabad, Telangana 500016",
+    "opening_hours": "11:00",
+    "closing_hours": "01:00",
+    "image_url": "https://example.com/shah-ghouse.jpg",
+    "address": "Tolichowki, Hyderabad, Telangana 500008"
+  },
+  {
+    "name": "Rayalaseema Ruchulu",
+    "description": "Authentic Andhra restaurant serving spicy regional specialties and traditional thalis.",
+    "category": "food",
+    "entry_fee": 350,
+    "rating": 4.2,
+    "average_time": 60,
+    "best_time_to_visit": "Afternoon",
+    "tags": ["Andhra Cuisine", "Spicy", "Traditional", "Thali", "Local"],
+    "coordinates": {
       "lat": 17.4399,
-      "lng": 78.4669
-    }
-  ]
-}
+      "lng": 78.4983
+    },
+    "opening_hours": "11:30",
+    "closing_hours": "23:00",
+    "image_url": "https://example.com/rayalaseema.jpg",
+    "address": "Multiple locations, Hyderabad"
+  },
+  {
+    "name": "Jewel of Nizam",
+    "description": "Fine dining restaurant at Taj Falaknuma Palace, offering royal Hyderabadi cuisine in palatial setting.",
+    "category": "food",
+    "entry_fee": 5000,
+    "rating": 4.8,
+    "average_time": 150,
+    "best_time_to_visit": "Evening",
+    "tags": ["Fine Dining", "Hyderabadi Cuisine", "Luxury", "Royal", "Palace"],
+    "coordinates": {
+      "lat": 17.3294,
+      "lng": 78.4594
+    },
+    "opening_hours": "19:30",
+    "closing_hours": "23:30",
+    "image_url": "https://example.com/jewel-of-nizam.jpg",
+    "address": "Taj Falaknuma Palace, Hyderabad, Telangana 500053"
+  },
+  {
+    "name": "Chutneys",
+    "description": "Popular South Indian restaurant chain known for extensive dosa varieties and authentic flavors.",
+    "category": "food",
+    "entry_fee": 300,
+    "rating": 4.3,
+    "average_time": 60,
+    "best_time_to_visit": "Morning",
+    "tags": ["South Indian", "Vegetarian", "Dosa", "Breakfast", "Family"],
+    "coordinates": {
+      "lat": 17.4399,
+      "lng": 78.4983
+    },
+    "opening_hours": "07:00",
+    "closing_hours": "23:00",
+    "image_url": "https://example.com/chutneys.jpg",
+    "address": "Multiple locations, Hyderabad"
+  },
+  {
+    "name": "Laad Bazaar",
+    "description": "Historic market near Charminar famous for bangles, pearls, traditional jewelry, and wedding items.",
+    "category": "shopping",
+    "entry_fee": 0,
+    "rating": 4.4,
+    "average_time": 120,
+    "best_time_to_visit": "Afternoon",
+    "tags": ["Traditional Market", "Bangles", "Jewelry", "Pearls", "Wedding Shopping"],
+    "coordinates": {
+      "lat": 17.3616,
+      "lng": 78.4747
+    },
+    "opening_hours": "10:00",
+    "closing_hours": "21:00",
+    "image_url": "https://example.com/laad-bazaar.jpg",
+    "address": "Charminar, Hyderabad, Telangana 500002"
+  },
+  {
+    "name": "Manjeera Mall",
+    "description": "Popular shopping destination with retail stores, food court, multiplex, and entertainment options.",
+    "category": "shopping",
+    "entry_fee": 0,
+    "rating": 4.2,
+    "average_time": 240,
+    "best_time_to_visit": "Afternoon",
+    "tags": ["Mall", "Shopping", "Entertainment", "Cinema", "Family"],
+    "coordinates": {
+      "lat": 17.4914,
+      "lng": 78.3956
+    },
+    "opening_hours": "10:00",
+    "closing_hours": "22:00",
+    "image_url": "https://example.com/manjeera-mall.jpg",
+    "address": "Kukatpally, Hyderabad, Telangana 500072"
+  },
+  {
+    "name": "Inorbit Mall",
+    "description": "Modern mall featuring national and international brands, restaurants, and multiplex cinema.",
+    "category": "shopping",
+    "entry_fee": 0,
+    "rating": 4.3,
+    "average_time": 240,
+    "best_time_to_visit": "Evening",
+    "tags": ["Mall", "Shopping", "Brands", "Cinema", "Dining"],
+    "coordinates": {
+      "lat": 17.4399,
+      "lng": 78.3877
+    },
+    "opening_hours": "10:00",
+    "closing_hours": "22:00",
+    "image_url": "https://example.com/inorbit-hyd.jpg",
+    "address": "HITEC City, Hyderabad, Telangana 500081"
+  },
+  {
+    "name": "Shilparamam",
+    "description": "Arts and crafts village showcasing traditional Indian handicrafts, cultural performances, and regional cuisine.",
+    "category": "shopping",
+    "entry_fee": 50,
+    "rating": 4.3,
+    "average_time": 180,
+    "best_time_to_visit": "Evening",
+    "tags": ["Handicrafts", "Culture", "Art Village", "Traditional", "Souvenirs"],
+    "coordinates": {
+      "lat": 17.4485,
+      "lng": 78.3908
+    },
+    "opening_hours": "10:30",
+    "closing_hours": "20:30",
+    "image_url": "https://example.com/shilparamam.jpg",
+    "address": "HITEC City, Hyderabad, Telangana 500081"
+  },
+  {
+    "name": "Taj Falaknuma Palace",
+    "description": "Ultra-luxury heritage palace hotel with opulent rooms, royal dining, and breathtaking city views.",
+    "category": "hotel",
+    "entry_fee": 35000,
+    "rating": 4.9,
+    "average_time": 1440,
+    "best_time_to_visit": "Anytime",
+    "tags": ["Ultra-Luxury", "5-Star", "Palace", "Heritage", "Royal"],
+    "coordinates": {
+      "lat": 17.3294,
+      "lng": 78.4594
+    },
+    "opening_hours": "00:00",
+    "closing_hours": "23:59",
+    "image_url": "https://example.com/taj-falaknuma.jpg",
+    "address": "Engine Bowli, Hyderabad, Telangana 500053"
+  },
+  {
+    "name": "ITC Kohenur",
+    "description": "Luxury hotel with modern design, multiple dining options, spa, and excellent business facilities.",
+    "category": "hotel",
+    "entry_fee": 12000,
+    "rating": 4.7,
+    "average_time": 1440,
+    "best_time_to_visit": "Anytime",
+    "tags": ["Luxury", "5-Star", "Modern", "Spa", "Business"],
+    "coordinates": {
+      "lat": 17.4399,
+      "lng": 78.3877
+    },
+    "opening_hours": "00:00",
+    "closing_hours": "23:59",
+    "image_url": "https://example.com/itc-kohenur.jpg",
+    "address": "HITEC City, Hyderabad, Telangana 500081"
+  },
+  {
+    "name": "Trident Hyderabad",
+    "description": "Contemporary 5-star hotel with elegant rooms, fine dining restaurants, and world-class amenities.",
+    "category": "hotel",
+    "entry_fee": 9000,
+    "rating": 4.6,
+    "average_time": 1440,
+    "best_time_to_visit": "Anytime",
+    "tags": ["Luxury", "5-Star", "Business", "Modern", "Pool"],
+    "coordinates": {
+      "lat": 17.4399,
+      "lng": 78.3877
+    },
+    "opening_hours": "00:00",
+    "closing_hours": "23:59",
+    "image_url": "https://example.com/trident-hyd.jpg",
+    "address": "HITEC City, Hyderabad, Telangana 500081"
+  }
+]

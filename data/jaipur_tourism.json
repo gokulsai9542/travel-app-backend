@@ -1,0 +1,326 @@
+[
+  {
+    "name": "Amber Fort",
+    "description": "Majestic hilltop fort with stunning Rajput architecture, mirror work, and elephant rides to the entrance.",
+    "category": "attraction",
+    "entry_fee": 100,
+    "rating": 4.7,
+    "average_time": 180,
+    "best_time_to_visit": "Morning",
+    "tags": ["Fort", "Heritage", "UNESCO", "Architecture", "Elephant Ride"],
+    "coordinates": {
+      "lat": 26.9855,
+      "lng": 75.8513
+    },
+    "opening_hours": "08:00",
+    "closing_hours": "17:30",
+    "image_url": "https://example.com/amber-fort.jpg",
+    "address": "Devisinghpura, Amer, Jaipur, Rajasthan 302001"
+  },
+  {
+    "name": "City Palace",
+    "description": "Royal residence blending Rajput and Mughal architecture, housing museums with royal artifacts.",
+    "category": "attraction",
+    "entry_fee": 200,
+    "rating": 4.6,
+    "average_time": 150,
+    "best_time_to_visit": "Morning",
+    "tags": ["Palace", "Heritage", "Museum", "Architecture", "Royal"],
+    "coordinates": {
+      "lat": 26.9258,
+      "lng": 75.8237
+    },
+    "opening_hours": "09:30",
+    "closing_hours": "17:00",
+    "image_url": "https://example.com/city-palace-jaipur.jpg",
+    "address": "Tulsi Marg, Gangori Bazaar, Jaipur, Rajasthan 302002"
+  },
+  {
+    "name": "Hawa Mahal",
+    "description": "Iconic pink sandstone palace with 953 windows, designed for royal ladies to observe street life.",
+    "category": "attraction",
+    "entry_fee": 50,
+    "rating": 4.5,
+    "average_time": 60,
+    "best_time_to_visit": "Morning",
+    "tags": ["Palace", "Heritage", "Architecture", "Photography", "Landmark"],
+    "coordinates": {
+      "lat": 26.9239,
+      "lng": 75.8267
+    },
+    "opening_hours": "09:00",
+    "closing_hours": "17:00",
+    "image_url": "https://example.com/hawa-mahal.jpg",
+    "address": "Hawa Mahal Road, Badi Choupad, Jaipur, Rajasthan 302002"
+  },
+  {
+    "name": "Jantar Mantar",
+    "description": "UNESCO World Heritage astronomical observatory with largest stone sundial, built in 18th century.",
+    "category": "attraction",
+    "entry_fee": 50,
+    "rating": 4.4,
+    "average_time": 90,
+    "best_time_to_visit": "Morning",
+    "tags": ["UNESCO", "Observatory", "Science", "Heritage", "Education"],
+    "coordinates": {
+      "lat": 26.9246,
+      "lng": 75.8246
+    },
+    "opening_hours": "09:00",
+    "closing_hours": "17:00",
+    "image_url": "https://example.com/jantar-mantar.jpg",
+    "address": "Gangori Bazaar, Jaipur, Rajasthan 302002"
+  },
+  {
+    "name": "Nahargarh Fort",
+    "description": "Hilltop fort offering panoramic city views, popular for sunset and light show.",
+    "category": "attraction",
+    "entry_fee": 50,
+    "rating": 4.5,
+    "average_time": 120,
+    "best_time_to_visit": "Evening",
+    "tags": ["Fort", "Sunset", "Panoramic Views", "Heritage", "Photography"],
+    "coordinates": {
+      "lat": 26.9367,
+      "lng": 75.8155
+    },
+    "opening_hours": "10:00",
+    "closing_hours": "17:30",
+    "image_url": "https://example.com/nahargarh-fort.jpg",
+    "address": "Krishna Nagar, Brahampuri, Jaipur, Rajasthan 302002"
+  },
+  {
+    "name": "Jaigarh Fort",
+    "description": "Massive fort with world's largest cannon on wheels, stunning Aravalli views, and military museum.",
+    "category": "attraction",
+    "entry_fee": 85,
+    "rating": 4.4,
+    "average_time": 120,
+    "best_time_to_visit": "Morning",
+    "tags": ["Fort", "Heritage", "Museum", "Cannon", "Photography"],
+    "coordinates": {
+      "lat": 26.9855,
+      "lng": 75.8513
+    },
+    "opening_hours": "09:00",
+    "closing_hours": "16:30",
+    "image_url": "https://example.com/jaigarh-fort.jpg",
+    "address": "Devisinghpura, Amer, Jaipur, Rajasthan 302001"
+  },
+  {
+    "name": "Jal Mahal",
+    "description": "Beautiful water palace in middle of Man Sagar Lake, stunning photo opportunity especially at sunset.",
+    "category": "attraction",
+    "entry_fee": 0,
+    "rating": 4.3,
+    "average_time": 30,
+    "best_time_to_visit": "Evening",
+    "tags": ["Palace", "Lake", "Photography", "Scenic", "Sunset"],
+    "coordinates": {
+      "lat": 26.9539,
+      "lng": 75.8461
+    },
+    "opening_hours": "00:00",
+    "closing_hours": "23:59",
+    "image_url": "https://example.com/jal-mahal.jpg",
+    "address": "Amer Road, Jaipur, Rajasthan 302002"
+  },
+  {
+    "name": "Albert Hall Museum",
+    "description": "Oldest museum in Rajasthan featuring Indo-Saracenic architecture and extensive art collection.",
+    "category": "attraction",
+    "entry_fee": 40,
+    "rating": 4.4,
+    "average_time": 120,
+    "best_time_to_visit": "Evening",
+    "tags": ["Museum", "Heritage", "Art", "Architecture", "History"],
+    "coordinates": {
+      "lat": 26.9124,
+      "lng": 75.8170
+    },
+    "opening_hours": "09:00",
+    "closing_hours": "17:00",
+    "image_url": "https://example.com/albert-hall.jpg",
+    "address": "Ram Niwas Garden, Jaipur, Rajasthan 302004"
+  },
+  {
+    "name": "Laxmi Misthan Bhandar (LMB)",
+    "description": "Iconic vegetarian restaurant since 1954, famous for Rajasthani thalis and traditional sweets.",
+    "category": "food",
+    "entry_fee": 400,
+    "rating": 4.3,
+    "average_time": 75,
+    "best_time_to_visit": "Afternoon",
+    "tags": ["Rajasthani Cuisine", "Vegetarian", "Heritage", "Sweets", "Traditional"],
+    "coordinates": {
+      "lat": 26.9258,
+      "lng": 75.8237
+    },
+    "opening_hours": "08:00",
+    "closing_hours": "23:00",
+    "image_url": "https://example.com/lmb-jaipur.jpg",
+    "address": "Johari Bazaar, Jaipur, Rajasthan 302003"
+  },
+  {
+    "name": "Chokhi Dhani",
+    "description": "Ethnic village resort offering authentic Rajasthani cuisine, cultural shows, and traditional entertainment.",
+    "category": "food",
+    "entry_fee": 900,
+    "rating": 4.4,
+    "average_time": 180,
+    "best_time_to_visit": "Evening",
+    "tags": ["Rajasthani Cuisine", "Cultural Experience", "Entertainment", "Buffet", "Family"],
+    "coordinates": {
+      "lat": 26.7769,
+      "lng": 75.8537
+    },
+    "opening_hours": "17:00",
+    "closing_hours": "23:00",
+    "image_url": "https://example.com/chokhi-dhani.jpg",
+    "address": "Tonk Road, Jaipur, Rajasthan 303905"
+  },
+  {
+    "name": "Suvarna Mahal",
+    "description": "Opulent fine dining at Rambagh Palace, serving royal Rajasthani and international cuisine.",
+    "category": "food",
+    "entry_fee": 5000,
+    "rating": 4.8,
+    "average_time": 150,
+    "best_time_to_visit": "Evening",
+    "tags": ["Fine Dining", "Rajasthani Cuisine", "Luxury", "Palace", "Royal"],
+    "coordinates": {
+      "lat": 26.8983,
+      "lng": 75.8109
+    },
+    "opening_hours": "19:30",
+    "closing_hours": "23:30",
+    "image_url": "https://example.com/suvarna-mahal.jpg",
+    "address": "Rambagh Palace, Bhawani Singh Road, Jaipur, Rajasthan 302005"
+  },
+  {
+    "name": "Rawat Mishtan Bhandar",
+    "description": "Famous for pyaaz kachori and traditional Rajasthani snacks, popular local eatery.",
+    "category": "food",
+    "entry_fee": 200,
+    "rating": 4.2,
+    "average_time": 45,
+    "best_time_to_visit": "Morning",
+    "tags": ["Street Food", "Rajasthani Snacks", "Budget-Friendly", "Local", "Kachori"],
+    "coordinates": {
+      "lat": 26.9124,
+      "lng": 75.7873
+    },
+    "opening_hours": "08:00",
+    "closing_hours": "22:30",
+    "image_url": "https://example.com/rawat.jpg",
+    "address": "Station Road, Sindhi Camp, Jaipur, Rajasthan 302006"
+  },
+  {
+    "name": "Johari Bazaar",
+    "description": "Famous jewelry market specializing in precious and semi-precious stones, traditional kundan jewelry.",
+    "category": "shopping",
+    "entry_fee": 0,
+    "rating": 4.5,
+    "average_time": 180,
+    "best_time_to_visit": "Afternoon",
+    "tags": ["Jewelry", "Traditional Market", "Gems", "Kundan", "Luxury"],
+    "coordinates": {
+      "lat": 26.9258,
+      "lng": 75.8237
+    },
+    "opening_hours": "10:00",
+    "closing_hours": "21:00",
+    "image_url": "https://example.com/johari-bazaar.jpg",
+    "address": "Johari Bazaar, Jaipur, Rajasthan 302003"
+  },
+  {
+    "name": "Bapu Bazaar",
+    "description": "Colorful market for textiles, juttis (traditional footwear), handicrafts, and souvenirs.",
+    "category": "shopping",
+    "entry_fee": 0,
+    "rating": 4.3,
+    "average_time": 150,
+    "best_time_to_visit": "Afternoon",
+    "tags": ["Textiles", "Traditional Market", "Handicrafts", "Footwear", "Souvenirs"],
+    "coordinates": {
+      "lat": 26.9211,
+      "lng": 75.8182
+    },
+    "opening_hours": "10:00",
+    "closing_hours": "21:00",
+    "image_url": "https://example.com/bapu-bazaar.jpg",
+    "address": "Bapu Bazaar, Jaipur, Rajasthan 302001"
+  },
+  {
+    "name": "Jaipur Blue Pottery",
+    "description": "Shops selling traditional blue pottery items, a unique Jaipur craft with Persian influence.",
+    "category": "shopping",
+    "entry_fee": 0,
+    "rating": 4.4,
+    "average_time": 90,
+    "best_time_to_visit": "Afternoon",
+    "tags": ["Handicrafts", "Pottery", "Traditional", "Art", "Souvenirs"],
+    "coordinates": {
+      "lat": 26.9124,
+      "lng": 75.7873
+    },
+    "opening_hours": "10:00",
+    "closing_hours": "20:00",
+    "image_url": "https://example.com/blue-pottery.jpg",
+    "address": "Multiple locations, Jaipur"
+  },
+  {
+    "name": "Taj Rambagh Palace",
+    "description": "Former royal residence transformed into luxury heritage hotel with opulent rooms and royal dining.",
+    "category": "hotel",
+    "entry_fee": 30000,
+    "rating": 4.9,
+    "average_time": 1440,
+    "best_time_to_visit": "Anytime",
+    "tags": ["Ultra-Luxury", "5-Star", "Palace", "Heritage", "Royal"],
+    "coordinates": {
+      "lat": 26.8983,
+      "lng": 75.8109
+    },
+    "opening_hours": "00:00",
+    "closing_hours": "23:59",
+    "image_url": "https://example.com/taj-rambagh.jpg",
+    "address": "Bhawani Singh Road, Jaipur, Rajasthan 302005"
+  },
+  {
+    "name": "The Oberoi Rajvilas",
+    "description": "Luxury resort with traditional Rajasthani architecture, private villas, and award-winning spa.",
+    "category": "hotel",
+    "entry_fee": 28000,
+    "rating": 4.9,
+    "average_time": 1440,
+    "best_time_to_visit": "Anytime",
+    "tags": ["Ultra-Luxury", "5-Star", "Resort", "Spa", "Villas"],
+    "coordinates": {
+      "lat": 26.8829,
+      "lng": 75.8164
+    },
+    "opening_hours": "00:00",
+    "closing_hours": "23:59",
+    "image_url": "https://example.com/oberoi-rajvilas.jpg",
+    "address": "Goner Road, Jaipur, Rajasthan 303012"
+  },
+  {
+    "name": "ITC Rajputana",
+    "description": "Luxury hotel with Rajasthani architecture, multiple dining options, and excellent service.",
+    "category": "hotel",
+    "entry_fee": 12000,
+    "rating": 4.7,
+    "average_time": 1440,
+    "best_time_to_visit": "Anytime",
+    "tags": ["Luxury", "5-Star", "Heritage Style", "Business", "Spa"],
+    "coordinates": {
+      "lat": 26.9124,
+      "lng": 75.7873
+    },
+    "opening_hours": "00:00",
+    "closing_hours": "23:59",
+    "image_url": "https://example.com/itc-rajputana.jpg",
+    "address": "Palace Road, Jaipur, Rajasthan 302006"
+  }
+]

@@ -1,32 +1,43 @@
-# Python
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
-*.so
-.Python
+
+# Virtual environments
 venv/
 env/
 ENV/
+.venv
 
-# Machine Learning
-*.pkl
-*.h5
-*.joblib
-training_data.csv
+# Flask
+instance/
+.webassets-cache
 
-# IDEs
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
+
+# Environment variables
+.env
+.env.local
+.env.*.local
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Environment
-.env
-.env.local
-
 # Logs
 *.log
+logs/
+
+# ML Models
+*.pkl
+*.joblib
+models/
+
+# Temporary files
+*.tmp
+temp/

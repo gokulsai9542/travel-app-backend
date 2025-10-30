@@ -1,195 +1,344 @@
-{
-  "city": "Chennai",
-  "places": [
-    {
-      "name": "Marina Beach",
-      "category": "attraction",
-      "rating": 4.4,
-      "opening_hours": "05:00",
-      "closing_hours": "20:00",
-      "address": "Marina Beach, Chennai, Tamil Nadu 600003",
+[
+  {
+    "name": "Marina Beach",
+    "description": "India's longest natural urban beach stretching 13km, perfect for morning walks, street food, and stunning sunrises.",
+    "category": "attraction",
+    "entry_fee": 0,
+    "rating": 4.4,
+    "average_time": 120,
+    "best_time_to_visit": "Evening",
+    "tags": ["Beach", "Sunset", "Walking", "Family", "Photography"],
+    "coordinates": {
       "lat": 13.0499,
       "lng": 80.2824
     },
-    {
-      "name": "Kapaleeshwarar Temple",
-      "category": "attraction",
-      "rating": 4.6,
-      "opening_hours": "05:30",
-      "closing_hours": "21:00",
-      "address": "Mylapore, Chennai, Tamil Nadu 600004",
+    "opening_hours": "05:00",
+    "closing_hours": "20:00",
+    "image_url": "https://example.com/marina-beach.jpg",
+    "address": "Marina Beach, Chennai, Tamil Nadu 600003"
+  },
+  {
+    "name": "Kapaleeshwarar Temple",
+    "description": "Ancient 7th-century Dravidian temple dedicated to Lord Shiva with magnificent gopuram and intricate carvings.",
+    "category": "attraction",
+    "entry_fee": 0,
+    "rating": 4.6,
+    "average_time": 90,
+    "best_time_to_visit": "Morning",
+    "tags": ["Religious", "Architecture", "Culture", "Heritage", "Spiritual"],
+    "coordinates": {
       "lat": 13.0339,
       "lng": 80.2690
     },
-    {
-      "name": "Fort St. George",
-      "category": "attraction",
-      "rating": 4.2,
-      "opening_hours": "09:00",
-      "closing_hours": "17:00",
-      "address": "Rajaji Salai, Chennai, Tamil Nadu 600001",
+    "opening_hours": "05:30",
+    "closing_hours": "21:00",
+    "image_url": "https://example.com/kapaleeshwarar.jpg",
+    "address": "Mylapore, Chennai, Tamil Nadu 600004"
+  },
+  {
+    "name": "Fort St. George",
+    "description": "First English fortress in India, now housing a museum with colonial artifacts and historical exhibits.",
+    "category": "attraction",
+    "entry_fee": 15,
+    "rating": 4.2,
+    "average_time": 120,
+    "best_time_to_visit": "Morning",
+    "tags": ["History", "Museum", "Colonial", "Architecture", "Culture"],
+    "coordinates": {
       "lat": 13.0799,
       "lng": 80.2884
     },
-    {
-      "name": "Government Museum",
-      "category": "attraction",
-      "rating": 4.3,
-      "opening_hours": "09:30",
-      "closing_hours": "17:00",
-      "address": "Pantheon Road, Egmore, Chennai, Tamil Nadu 600008",
+    "opening_hours": "09:00",
+    "closing_hours": "17:00",
+    "image_url": "https://example.com/fort-st-george.jpg",
+    "address": "Rajaji Salai, Chennai, Tamil Nadu 600001"
+  },
+  {
+    "name": "Government Museum",
+    "description": "One of India's oldest museums with extensive collections of archaeology, numismatics, and bronze sculptures.",
+    "category": "attraction",
+    "entry_fee": 20,
+    "rating": 4.3,
+    "average_time": 150,
+    "best_time_to_visit": "Morning",
+    "tags": ["Museum", "History", "Art", "Culture", "Education"],
+    "coordinates": {
       "lat": 13.0677,
       "lng": 80.2615
     },
-    {
-      "name": "San Thome Cathedral",
-      "category": "attraction",
-      "rating": 4.5,
-      "opening_hours": "06:00",
-      "closing_hours": "20:00",
-      "address": "San Thome, Chennai, Tamil Nadu 600004",
+    "opening_hours": "09:30",
+    "closing_hours": "17:00",
+    "image_url": "https://example.com/govt-museum.jpg",
+    "address": "Pantheon Road, Egmore, Chennai, Tamil Nadu 600008"
+  },
+  {
+    "name": "San Thome Cathedral",
+    "description": "Beautiful Roman Catholic basilica built over the tomb of St. Thomas, featuring neo-Gothic architecture.",
+    "category": "attraction",
+    "entry_fee": 0,
+    "rating": 4.5,
+    "average_time": 60,
+    "best_time_to_visit": "Morning",
+    "tags": ["Religious", "Architecture", "Heritage", "Peace", "Photography"],
+    "coordinates": {
       "lat": 13.0338,
       "lng": 80.2773
     },
-    {
-      "name": "Guindy National Park",
-      "category": "attraction",
-      "rating": 4.1,
-      "opening_hours": "09:00",
-      "closing_hours": "17:30",
-      "address": "Guindy, Chennai, Tamil Nadu 600032",
+    "opening_hours": "06:00",
+    "closing_hours": "20:00",
+    "image_url": "https://example.com/san-thome.jpg",
+    "address": "San Thome, Chennai, Tamil Nadu 600004"
+  },
+  {
+    "name": "Guindy National Park",
+    "description": "One of the smallest national parks in India, home to blackbucks, spotted deer, and diverse bird species.",
+    "category": "attraction",
+    "entry_fee": 15,
+    "rating": 4.1,
+    "average_time": 180,
+    "best_time_to_visit": "Morning",
+    "tags": ["Nature", "Wildlife", "Family", "Photography", "Walking"],
+    "coordinates": {
       "lat": 13.0067,
       "lng": 80.2333
     },
-    {
-      "name": "Valluvar Kottam",
-      "category": "attraction",
-      "rating": 4.2,
-      "opening_hours": "08:30",
-      "closing_hours": "17:30",
-      "address": "Nungambakkam, Chennai, Tamil Nadu 600034",
+    "opening_hours": "09:00",
+    "closing_hours": "17:30",
+    "image_url": "https://example.com/guindy-park.jpg",
+    "address": "Guindy, Chennai, Tamil Nadu 600032"
+  },
+  {
+    "name": "Valluvar Kottam",
+    "description": "Monument dedicated to Tamil poet-saint Thiruvalluvar, featuring a massive chariot-shaped auditorium.",
+    "category": "attraction",
+    "entry_fee": 5,
+    "rating": 4.2,
+    "average_time": 60,
+    "best_time_to_visit": "Evening",
+    "tags": ["Monument", "Culture", "Architecture", "Heritage", "Photography"],
+    "coordinates": {
       "lat": 13.0527,
       "lng": 80.2424
     },
-    {
-      "name": "MGR Film City",
-      "category": "attraction",
-      "rating": 4.0,
-      "opening_hours": "10:00",
-      "closing_hours": "18:00",
-      "address": "Taramani, Chennai, Tamil Nadu 600113",
+    "opening_hours": "08:30",
+    "closing_hours": "17:30",
+    "image_url": "https://example.com/valluvar-kottam.jpg",
+    "address": "Nungambakkam, Chennai, Tamil Nadu 600034"
+  },
+  {
+    "name": "MGR Film City",
+    "description": "Sprawling film production complex and theme park offering tours and entertainment shows.",
+    "category": "attraction",
+    "entry_fee": 50,
+    "rating": 4.0,
+    "average_time": 240,
+    "best_time_to_visit": "Morning",
+    "tags": ["Entertainment", "Film", "Family", "Theme Park", "Tours"],
+    "coordinates": {
       "lat": 12.9833,
       "lng": 80.2333
     },
-    {
-      "name": "Murugan Idli Shop",
-      "category": "food",
-      "rating": 4.4,
-      "opening_hours": "06:00",
-      "closing_hours": "22:30",
-      "address": "Multiple locations, Chennai",
+    "opening_hours": "10:00",
+    "closing_hours": "18:00",
+    "image_url": "https://example.com/mgr-film-city.jpg",
+    "address": "Taramani, Chennai, Tamil Nadu 600113"
+  },
+  {
+    "name": "Murugan Idli Shop",
+    "description": "Famous South Indian breakfast spot serving soft idlis, flavorful chutneys, and authentic filter coffee.",
+    "category": "food",
+    "entry_fee": 150,
+    "rating": 4.4,
+    "average_time": 45,
+    "best_time_to_visit": "Morning",
+    "tags": ["South Indian", "Breakfast", "Budget-Friendly", "Local", "Vegetarian"],
+    "coordinates": {
       "lat": 13.0827,
       "lng": 80.2707
     },
-    {
-      "name": "Saravana Bhavan",
-      "category": "food",
-      "rating": 4.3,
-      "opening_hours": "07:00",
-      "closing_hours": "23:00",
-      "address": "Multiple locations, Chennai",
+    "opening_hours": "06:00",
+    "closing_hours": "22:30",
+    "image_url": "https://example.com/murugan-idli.jpg",
+    "address": "Multiple locations, Chennai"
+  },
+  {
+    "name": "Saravana Bhavan",
+    "description": "World-famous vegetarian restaurant chain known for authentic South Indian meals and dosas.",
+    "category": "food",
+    "entry_fee": 200,
+    "rating": 4.3,
+    "average_time": 60,
+    "best_time_to_visit": "Afternoon",
+    "tags": ["South Indian", "Vegetarian", "Traditional", "Family", "Thali"],
+    "coordinates": {
       "lat": 13.0827,
       "lng": 80.2707
     },
-    {
-      "name": "Madras Pavilion",
-      "category": "food",
-      "rating": 4.5,
-      "opening_hours": "12:00",
-      "closing_hours": "23:00",
-      "address": "ITC Grand Chola, Guindy, Chennai, Tamil Nadu 600032",
+    "opening_hours": "07:00",
+    "closing_hours": "23:00",
+    "image_url": "https://example.com/saravana-bhavan.jpg",
+    "address": "Multiple locations, Chennai"
+  },
+  {
+    "name": "Madras Pavilion",
+    "description": "Elegant multi-cuisine restaurant at ITC Grand Chola offering international buffets and fine dining.",
+    "category": "food",
+    "entry_fee": 1500,
+    "rating": 4.5,
+    "average_time": 90,
+    "best_time_to_visit": "Evening",
+    "tags": ["Fine Dining", "Buffet", "Multi-Cuisine", "Luxury", "International"],
+    "coordinates": {
       "lat": 13.0067,
       "lng": 80.2206
     },
-    {
-      "name": "Dakshin Restaurant",
-      "category": "food",
-      "rating": 4.4,
-      "opening_hours": "12:30",
-      "closing_hours": "23:00",
-      "address": "ITC Grand Chola, Chennai, Tamil Nadu 600032",
+    "opening_hours": "12:00",
+    "closing_hours": "23:00",
+    "image_url": "https://example.com/madras-pavilion.jpg",
+    "address": "ITC Grand Chola, Guindy, Chennai, Tamil Nadu 600032"
+  },
+  {
+    "name": "Dakshin Restaurant",
+    "description": "Award-winning restaurant specializing in authentic South Indian coastal cuisine and traditional recipes.",
+    "category": "food",
+    "entry_fee": 1200,
+    "rating": 4.4,
+    "average_time": 90,
+    "best_time_to_visit": "Afternoon",
+    "tags": ["South Indian", "Fine Dining", "Seafood", "Traditional", "Luxury"],
+    "coordinates": {
       "lat": 13.0067,
       "lng": 80.2206
     },
-    {
-      "name": "The Flying Elephant",
-      "category": "food",
-      "rating": 4.3,
-      "opening_hours": "12:30",
-      "closing_hours": "23:30",
-      "address": "Park Hyatt, Velachery Road, Chennai, Tamil Nadu 600032",
+    "opening_hours": "12:30",
+    "closing_hours": "23:00",
+    "image_url": "https://example.com/dakshin.jpg",
+    "address": "ITC Grand Chola, Chennai, Tamil Nadu 600032"
+  },
+  {
+    "name": "The Flying Elephant",
+    "description": "All-day dining restaurant with live kitchens, international buffet, and contemporary ambiance.",
+    "category": "food",
+    "entry_fee": 1400,
+    "rating": 4.3,
+    "average_time": 90,
+    "best_time_to_visit": "Evening",
+    "tags": ["Buffet", "Multi-Cuisine", "Fine Dining", "International", "Family"],
+    "coordinates": {
       "lat": 12.9833,
       "lng": 80.2167
     },
-    {
-      "name": "T Nagar Shopping District",
-      "category": "shopping",
-      "rating": 4.5,
-      "opening_hours": "10:00",
-      "closing_hours": "21:00",
-      "address": "T. Nagar, Chennai, Tamil Nadu 600017",
+    "opening_hours": "12:30",
+    "closing_hours": "23:30",
+    "image_url": "https://example.com/flying-elephant.jpg",
+    "address": "Park Hyatt, Velachery Road, Chennai, Tamil Nadu 600032"
+  },
+  {
+    "name": "T Nagar Shopping District",
+    "description": "Bustling shopping hub with jewelry stores, textile shops, and countless retail outlets.",
+    "category": "shopping",
+    "entry_fee": 0,
+    "rating": 4.5,
+    "average_time": 180,
+    "best_time_to_visit": "Afternoon",
+    "tags": ["Shopping", "Jewelry", "Textiles", "Local", "Traditional"],
+    "coordinates": {
       "lat": 13.0418,
       "lng": 80.2341
     },
-    {
-      "name": "Phoenix Marketcity",
-      "category": "shopping",
-      "rating": 4.4,
-      "opening_hours": "10:00",
-      "closing_hours": "22:00",
-      "address": "Velachery, Chennai, Tamil Nadu 600042",
+    "opening_hours": "10:00",
+    "closing_hours": "21:00",
+    "image_url": "https://example.com/t-nagar.jpg",
+    "address": "T. Nagar, Chennai, Tamil Nadu 600017"
+  },
+  {
+    "name": "Phoenix Marketcity",
+    "description": "Premium shopping mall with national and international brands, multiplex, and dining options.",
+    "category": "shopping",
+    "entry_fee": 0,
+    "rating": 4.4,
+    "average_time": 240,
+    "best_time_to_visit": "Afternoon",
+    "tags": ["Mall", "Shopping", "Entertainment", "Cinema", "Brands"],
+    "coordinates": {
       "lat": 12.9833,
       "lng": 80.2167
     },
-    {
-      "name": "Express Avenue Mall",
-      "category": "shopping",
-      "rating": 4.3,
-      "opening_hours": "10:00",
-      "closing_hours": "22:00",
-      "address": "Royapettah, Chennai, Tamil Nadu 600014",
+    "opening_hours": "10:00",
+    "closing_hours": "22:00",
+    "image_url": "https://example.com/phoenix-chennai.jpg",
+    "address": "Velachery, Chennai, Tamil Nadu 600042"
+  },
+  {
+    "name": "Express Avenue Mall",
+    "description": "Modern shopping mall featuring fashion brands, electronics, food court, and gaming zone.",
+    "category": "shopping",
+    "entry_fee": 0,
+    "rating": 4.3,
+    "average_time": 180,
+    "best_time_to_visit": "Evening",
+    "tags": ["Mall", "Shopping", "Entertainment", "Fashion", "Family"],
+    "coordinates": {
       "lat": 13.0569,
       "lng": 80.2620
     },
-    {
-      "name": "Pondy Bazaar",
-      "category": "shopping",
-      "rating": 4.2,
-      "opening_hours": "10:00",
-      "closing_hours": "21:30",
-      "address": "T. Nagar, Chennai, Tamil Nadu 600017",
+    "opening_hours": "10:00",
+    "closing_hours": "22:00",
+    "image_url": "https://example.com/express-avenue.jpg",
+    "address": "Royapettah, Chennai, Tamil Nadu 600014"
+  },
+  {
+    "name": "Pondy Bazaar",
+    "description": "Popular street shopping area known for affordable clothing, accessories, and bargain deals.",
+    "category": "shopping",
+    "entry_fee": 0,
+    "rating": 4.2,
+    "average_time": 150,
+    "best_time_to_visit": "Evening",
+    "tags": ["Street Shopping", "Fashion", "Accessories", "Budget-Friendly", "Local"],
+    "coordinates": {
       "lat": 13.0418,
       "lng": 80.2341
     },
-    {
-      "name": "ITC Grand Chola",
-      "category": "hotel",
-      "rating": 4.8,
-      "opening_hours": "00:00",
-      "closing_hours": "23:59",
-      "address": "Guindy, Chennai, Tamil Nadu 600032",
+    "opening_hours": "10:00",
+    "closing_hours": "21:30",
+    "image_url": "https://example.com/pondy-bazaar.jpg",
+    "address": "T. Nagar, Chennai, Tamil Nadu 600017"
+  },
+  {
+    "name": "ITC Grand Chola",
+    "description": "Ultra-luxury 5-star hotel inspired by Chola architecture with world-class amenities and dining.",
+    "category": "hotel",
+    "entry_fee": 14000,
+    "rating": 4.8,
+    "average_time": 1440,
+    "best_time_to_visit": "Anytime",
+    "tags": ["Luxury", "5-Star", "Heritage", "Spa", "Fine Dining"],
+    "coordinates": {
       "lat": 13.0067,
       "lng": 80.2206
     },
-    {
-      "name": "Taj Coromandel",
-      "category": "hotel",
-      "rating": 4.7,
-      "opening_hours": "00:00",
-      "closing_hours": "23:59",
-      "address": "Nungambakkam, Chennai, Tamil Nadu 600034",
+    "opening_hours": "00:00",
+    "closing_hours": "23:59",
+    "image_url": "https://example.com/itc-grand-chola.jpg",
+    "address": "Guindy, Chennai, Tamil Nadu 600032"
+  },
+  {
+    "name": "Taj Coromandel",
+    "description": "Iconic luxury hotel offering elegant rooms, multiple dining venues, and impeccable service.",
+    "category": "hotel",
+    "entry_fee": 12000,
+    "rating": 4.7,
+    "average_time": 1440,
+    "best_time_to_visit": "Anytime",
+    "tags": ["Luxury", "5-Star", "Business", "Spa", "Fine Dining"],
+    "coordinates": {
       "lat": 13.0615,
       "lng": 80.2523
-    }
-  ]
-}
+    },
+    "opening_hours": "00:00",
+    "closing_hours": "23:59",
+    "image_url": "https://example.com/taj-coromandel.jpg",
+    "address": "Nungambakkam, Chennai, Tamil Nadu 600034"
+  }
+]

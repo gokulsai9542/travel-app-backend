@@ -1,195 +1,380 @@
-{
-  "city": "Delhi",
-  "places": [
-    {
-      "name": "Red Fort",
-      "category": "attraction",
-      "rating": 4.5,
-      "opening_hours": "09:30",
-      "closing_hours": "16:30",
-      "address": "Netaji Subhash Marg, Chandni Chowk, New Delhi, Delhi 110006",
+[
+  {
+    "name": "Red Fort",
+    "description": "UNESCO World Heritage Site, magnificent Mughal fortress with red sandstone walls and rich history.",
+    "category": "attraction",
+    "entry_fee": 35,
+    "rating": 4.5,
+    "average_time": 150,
+    "best_time_to_visit": "Morning",
+    "tags": ["UNESCO", "Heritage", "Mughal", "Architecture", "History"],
+    "coordinates": {
       "lat": 28.6562,
       "lng": 77.2410
     },
-    {
-      "name": "Qutub Minar",
-      "category": "attraction",
-      "rating": 4.6,
-      "opening_hours": "07:00",
-      "closing_hours": "17:00",
-      "address": "Mehrauli, New Delhi, Delhi 110030",
+    "opening_hours": "09:30",
+    "closing_hours": "16:30",
+    "image_url": "https://example.com/red-fort.jpg",
+    "address": "Netaji Subhash Marg, Chandni Chowk, Delhi 110006"
+  },
+  {
+    "name": "Qutub Minar",
+    "description": "UNESCO World Heritage Site, 73m tall victory tower with intricate carvings from 12th century.",
+    "category": "attraction",
+    "entry_fee": 35,
+    "rating": 4.4,
+    "average_time": 120,
+    "best_time_to_visit": "Morning",
+    "tags": ["UNESCO", "Heritage", "Architecture", "Photography", "History"],
+    "coordinates": {
       "lat": 28.5244,
       "lng": 77.1855
     },
-    {
-      "name": "India Gate",
-      "category": "attraction",
-      "rating": 4.7,
-      "opening_hours": "00:00",
-      "closing_hours": "23:59",
-      "address": "Rajpath, New Delhi, Delhi 110001",
+    "opening_hours": "07:00",
+    "closing_hours": "17:00",
+    "image_url": "https://example.com/qutub-minar.jpg",
+    "address": "Mehrauli, Delhi 110030"
+  },
+  {
+    "name": "India Gate",
+    "description": "42m tall war memorial arch honoring Indian soldiers, iconic landmark with surrounding gardens.",
+    "category": "attraction",
+    "entry_fee": 0,
+    "rating": 4.5,
+    "average_time": 60,
+    "best_time_to_visit": "Evening",
+    "tags": ["Landmark", "Memorial", "Photography", "Evening Walk", "Picnic"],
+    "coordinates": {
       "lat": 28.6129,
       "lng": 77.2295
     },
-    {
-      "name": "Lotus Temple",
-      "category": "attraction",
-      "rating": 4.6,
-      "opening_hours": "09:00",
-      "closing_hours": "17:30",
-      "address": "Lotus Temple Rd, Bahapur, New Delhi, Delhi 110019",
+    "opening_hours": "00:00",
+    "closing_hours": "23:59",
+    "image_url": "https://example.com/india-gate.jpg",
+    "address": "Rajpath, Delhi 110001"
+  },
+  {
+    "name": "Lotus Temple",
+    "description": "Stunning Bahai House of Worship shaped like lotus flower, symbol of peace and tranquility.",
+    "category": "attraction",
+    "entry_fee": 0,
+    "rating": 4.6,
+    "average_time": 90,
+    "best_time_to_visit": "Morning",
+    "tags": ["Architecture", "Spiritual", "Peace", "Modern", "Photography"],
+    "coordinates": {
       "lat": 28.5535,
       "lng": 77.2588
     },
-    {
-      "name": "Humayun's Tomb",
-      "category": "attraction",
-      "rating": 4.5,
-      "opening_hours": "06:00",
-      "closing_hours": "18:00",
-      "address": "Mathura Road, Nizamuddin, New Delhi, Delhi 110013",
+    "opening_hours": "09:00",
+    "closing_hours": "19:00",
+    "image_url": "https://example.com/lotus-temple.jpg",
+    "address": "Bahapur, Delhi 110019"
+  },
+  {
+    "name": "Humayun's Tomb",
+    "description": "UNESCO World Heritage Site, magnificent Mughal architecture inspiring Taj Mahal design.",
+    "category": "attraction",
+    "entry_fee": 35,
+    "rating": 4.6,
+    "average_time": 120,
+    "best_time_to_visit": "Morning",
+    "tags": ["UNESCO", "Heritage", "Mughal", "Architecture", "Gardens"],
+    "coordinates": {
       "lat": 28.5933,
       "lng": 77.2507
     },
-    {
-      "name": "Akshardham Temple",
-      "category": "attraction",
-      "rating": 4.8,
-      "opening_hours": "09:30",
-      "closing_hours": "18:30",
-      "address": "Noida Link Rd, New Delhi, Delhi 110092",
+    "opening_hours": "06:00",
+    "closing_hours": "18:00",
+    "image_url": "https://example.com/humayun-tomb.jpg",
+    "address": "Nizamuddin, Delhi 110013"
+  },
+  {
+    "name": "Akshardham Temple",
+    "description": "Magnificent Hindu temple complex with stunning architecture, exhibitions, and water show.",
+    "category": "attraction",
+    "entry_fee": 0,
+    "rating": 4.7,
+    "average_time": 240,
+    "best_time_to_visit": "Afternoon",
+    "tags": ["Religious", "Architecture", "Culture", "Shows", "Modern"],
+    "coordinates": {
       "lat": 28.6127,
       "lng": 77.2773
     },
-    {
-      "name": "Jama Masjid",
-      "category": "attraction",
-      "rating": 4.4,
-      "opening_hours": "07:00",
-      "closing_hours": "21:00",
-      "address": "Chandni Chowk, New Delhi, Delhi 110006",
+    "opening_hours": "09:30",
+    "closing_hours": "18:30",
+    "image_url": "https://example.com/akshardham.jpg",
+    "address": "Noida Mor, Delhi 110092"
+  },
+  {
+    "name": "Chandni Chowk",
+    "description": "Historic bustling market from 17th century with narrow lanes, street food, and traditional shops.",
+    "category": "attraction",
+    "entry_fee": 0,
+    "rating": 4.3,
+    "average_time": 180,
+    "best_time_to_visit": "Morning",
+    "tags": ["Market", "Heritage", "Street Food", "Shopping", "Culture"],
+    "coordinates": {
+      "lat": 28.6506,
+      "lng": 77.2303
+    },
+    "opening_hours": "10:00",
+    "closing_hours": "21:00",
+    "image_url": "https://example.com/chandni-chowk.jpg",
+    "address": "Chandni Chowk, Delhi 110006"
+  },
+  {
+    "name": "Jama Masjid",
+    "description": "India's largest mosque built by Shah Jahan, featuring stunning Mughal architecture and courtyard.",
+    "category": "attraction",
+    "entry_fee": 0,
+    "rating": 4.5,
+    "average_time": 60,
+    "best_time_to_visit": "Morning",
+    "tags": ["Religious", "Mughal", "Architecture", "Heritage", "Photography"],
+    "coordinates": {
       "lat": 28.6507,
       "lng": 77.2334
     },
-    {
-      "name": "Raj Ghat",
-      "category": "attraction",
-      "rating": 4.3,
-      "opening_hours": "05:30",
-      "closing_hours": "19:30",
-      "address": "Ring Rd, New Delhi, Delhi 110006",
-      "lat": 28.6410,
-      "lng": 77.2502
+    "opening_hours": "07:00",
+    "closing_hours": "12:00",
+    "image_url": "https://example.com/jama-masjid.jpg",
+    "address": "Chandni Chowk, Delhi 110006"
+  },
+  {
+    "name": "Lodhi Garden",
+    "description": "Historic park with 15th-century tombs, perfect for morning walks and photography.",
+    "category": "attraction",
+    "entry_fee": 0,
+    "rating": 4.5,
+    "average_time": 120,
+    "best_time_to_visit": "Morning",
+    "tags": ["Park", "Heritage", "Walking", "Photography", "Peaceful"],
+    "coordinates": {
+      "lat": 28.5933,
+      "lng": 77.2197
     },
-    {
-      "name": "Karim's Restaurant",
-      "category": "food",
-      "rating": 4.3,
-      "opening_hours": "06:00",
-      "closing_hours": "23:00",
-      "address": "Jama Masjid, Chandni Chowk, New Delhi, Delhi 110006",
+    "opening_hours": "05:00",
+    "closing_hours": "20:00",
+    "image_url": "https://example.com/lodhi-garden.jpg",
+    "address": "Lodhi Road, Delhi 110003"
+  },
+  {
+    "name": "Karim's",
+    "description": "Legendary Mughlai restaurant since 1913, famous for mutton korma, kebabs, and biryanis.",
+    "category": "food",
+    "entry_fee": 500,
+    "rating": 4.4,
+    "average_time": 75,
+    "best_time_to_visit": "Afternoon",
+    "tags": ["Mughlai", "Heritage", "Non-Veg", "Kebabs", "Traditional"],
+    "coordinates": {
       "lat": 28.6507,
       "lng": 77.2334
     },
-    {
-      "name": "Bukhara Restaurant",
-      "category": "food",
-      "rating": 4.6,
-      "opening_hours": "12:30",
-      "closing_hours": "23:45",
-      "address": "ITC Maurya, Diplomatic Enclave, New Delhi, Delhi 110021",
-      "lat": 28.5967,
-      "lng": 77.1654
+    "opening_hours": "11:00",
+    "closing_hours": "23:30",
+    "image_url": "https://example.com/karims.jpg",
+    "address": "Jama Masjid, Old Delhi, Delhi 110006"
+  },
+  {
+    "name": "Bukhara",
+    "description": "World-renowned restaurant at ITC Maurya, specializing in North-West Frontier cuisine and dal Bukhara.",
+    "category": "food",
+    "entry_fee": 4000,
+    "rating": 4.7,
+    "average_time": 120,
+    "best_time_to_visit": "Evening",
+    "tags": ["Fine Dining", "North Indian", "Luxury", "Kebabs", "Award-Winning"],
+    "coordinates": {
+      "lat": 28.6139,
+      "lng": 77.1864
     },
-    {
-      "name": "Indian Accent",
-      "category": "food",
-      "rating": 4.7,
-      "opening_hours": "12:00",
-      "closing_hours": "23:00",
-      "address": "The Lodhi, Lodhi Road, New Delhi, Delhi 110003",
+    "opening_hours": "12:30",
+    "closing_hours": "23:45",
+    "image_url": "https://example.com/bukhara.jpg",
+    "address": "ITC Maurya, Diplomatic Enclave, Delhi 110021"
+  },
+  {
+    "name": "Indian Accent",
+    "description": "Award-winning contemporary Indian restaurant with innovative tasting menus and elegant ambiance.",
+    "category": "food",
+    "entry_fee": 5000,
+    "rating": 4.8,
+    "average_time": 150,
+    "best_time_to_visit": "Evening",
+    "tags": ["Fine Dining", "Contemporary Indian", "Luxury", "Tasting Menu", "Award-Winning"],
+    "coordinates": {
       "lat": 28.5933,
-      "lng": 77.2176
+      "lng": 77.2197
     },
-    {
-      "name": "Moti Mahal",
-      "category": "food",
-      "rating": 4.2,
-      "opening_hours": "11:00",
-      "closing_hours": "23:00",
-      "address": "Daryaganj, New Delhi, Delhi 110002",
-      "lat": 28.6507,
-      "lng": 77.2410
+    "opening_hours": "12:00",
+    "closing_hours": "15:00",
+    "image_url": "https://example.com/indian-accent.jpg",
+    "address": "The Lodhi, Lodhi Road, Delhi 110003"
+  },
+  {
+    "name": "Paranthe Wali Gali",
+    "description": "Narrow lane in Old Delhi famous for variety of stuffed parathas served in traditional style.",
+    "category": "food",
+    "entry_fee": 150,
+    "rating": 4.3,
+    "average_time": 45,
+    "best_time_to_visit": "Morning",
+    "tags": ["Street Food", "Heritage", "Breakfast", "Budget-Friendly", "Local"],
+    "coordinates": {
+      "lat": 28.6506,
+      "lng": 77.2303
     },
-    {
-      "name": "Saravana Bhavan",
-      "category": "food",
-      "rating": 4.4,
-      "opening_hours": "08:00",
-      "closing_hours": "23:00",
-      "address": "Connaught Place, New Delhi, Delhi 110001",
+    "opening_hours": "08:00",
+    "closing_hours": "22:00",
+    "image_url": "https://example.com/paranthe-wali.jpg",
+    "address": "Chandni Chowk, Delhi 110006"
+  },
+  {
+    "name": "Saravana Bhavan",
+    "description": "Popular South Indian restaurant chain serving authentic dosas, idlis, and filter coffee.",
+    "category": "food",
+    "entry_fee": 300,
+    "rating": 4.2,
+    "average_time": 60,
+    "best_time_to_visit": "Afternoon",
+    "tags": ["South Indian", "Vegetarian", "Chain", "Budget-Friendly", "Dosa"],
+    "coordinates": {
+      "lat": 28.6139,
+      "lng": 77.2090
+    },
+    "opening_hours": "08:00",
+    "closing_hours": "23:00",
+    "image_url": "https://example.com/saravana-bhavan-delhi.jpg",
+    "address": "Multiple locations, Delhi"
+  },
+  {
+    "name": "Dilli Haat",
+    "description": "Open-air market showcasing handicrafts, handlooms, and regional cuisines from across India.",
+    "category": "shopping",
+    "entry_fee": 50,
+    "rating": 4.3,
+    "average_time": 180,
+    "best_time_to_visit": "Evening",
+    "tags": ["Handicrafts", "Market", "Culture", "Food Court", "Souvenirs"],
+    "coordinates": {
+      "lat": 28.5495,
+      "lng": 77.1902
+    },
+    "opening_hours": "10:30",
+    "closing_hours": "22:00",
+    "image_url": "https://example.com/dilli-haat.jpg",
+    "address": "INA, Delhi 110023"
+  },
+  {
+    "name": "Sarojini Nagar Market",
+    "description": "Popular budget shopping destination for trendy clothes, accessories, and export surplus items.",
+    "category": "shopping",
+    "entry_fee": 0,
+    "rating": 4.4,
+    "average_time": 180,
+    "best_time_to_visit": "Afternoon",
+    "tags": ["Budget Shopping", "Fashion", "Bargaining", "Trendy", "Local"],
+    "coordinates": {
+      "lat": 28.5706,
+      "lng": 77.1979
+    },
+    "opening_hours": "10:00",
+    "closing_hours": "21:30",
+    "image_url": "https://example.com/sarojini-nagar.jpg",
+    "address": "Sarojini Nagar, Delhi 110023"
+  },
+  {
+    "name": "Khan Market",
+    "description": "Upscale shopping area with boutiques, bookstores, cafes, and restaurants.",
+    "category": "shopping",
+    "entry_fee": 0,
+    "rating": 4.4,
+    "average_time": 180,
+    "best_time_to_visit": "Afternoon",
+    "tags": ["Upscale", "Boutiques", "Books", "Cafes", "Premium"],
+    "coordinates": {
+      "lat": 28.5981,
+      "lng": 77.2272
+    },
+    "opening_hours": "10:00",
+    "closing_hours": "21:00",
+    "image_url": "https://example.com/khan-market.jpg",
+    "address": "Khan Market, Delhi 110003"
+  },
+  {
+    "name": "Connaught Place",
+    "description": "Iconic circular market with British architecture, branded stores, restaurants, and entertainment.",
+    "category": "shopping",
+    "entry_fee": 0,
+    "rating": 4.3,
+    "average_time": 240,
+    "best_time_to_visit": "Evening",
+    "tags": ["Heritage", "Shopping", "Dining", "Entertainment", "Central"],
+    "coordinates": {
       "lat": 28.6315,
       "lng": 77.2167
     },
-    {
-      "name": "Connaught Place",
-      "category": "shopping",
-      "rating": 4.3,
-      "opening_hours": "10:00",
-      "closing_hours": "21:00",
-      "address": "Connaught Place, New Delhi, Delhi 110001",
-      "lat": 28.6315,
+    "opening_hours": "10:00",
+    "closing_hours": "21:00",
+    "image_url": "https://example.com/connaught-place.jpg",
+    "address": "Connaught Place, Delhi 110001"
+  },
+  {
+    "name": "The Leela Palace New Delhi",
+    "description": "Ultra-luxury hotel blending Lutyen's architecture with modern luxury, exceptional service and dining.",
+    "category": "hotel",
+    "entry_fee": 25000,
+    "rating": 4.9,
+    "average_time": 1440,
+    "best_time_to_visit": "Anytime",
+    "tags": ["Ultra-Luxury", "5-Star", "Heritage Style", "Spa", "Fine Dining"],
+    "coordinates": {
+      "lat": 28.5933,
+      "lng": 77.1864
+    },
+    "opening_hours": "00:00",
+    "closing_hours": "23:59",
+    "image_url": "https://example.com/leela-palace-delhi.jpg",
+    "address": "Chanakyapuri, Delhi 110023"
+  },
+  {
+    "name": "The Oberoi New Delhi",
+    "description": "Elegant luxury hotel with lush gardens, contemporary design, and award-winning restaurants.",
+    "category": "hotel",
+    "entry_fee": 20000,
+    "rating": 4.8,
+    "average_time": 1440,
+    "best_time_to_visit": "Anytime",
+    "tags": ["Luxury", "5-Star", "Gardens", "Spa", "Business"],
+    "coordinates": {
+      "lat": 28.6139,
       "lng": 77.2167
     },
-    {
-      "name": "Chandni Chowk Market",
-      "category": "shopping",
-      "rating": 4.2,
-      "opening_hours": "10:00",
-      "closing_hours": "20:00",
-      "address": "Chandni Chowk, New Delhi, Delhi 110006",
-      "lat": 28.6507,
-      "lng": 77.2310
+    "opening_hours": "00:00",
+    "closing_hours": "23:59",
+    "image_url": "https://example.com/oberoi-delhi.jpg",
+    "address": "Dr. Zakir Hussain Marg, Delhi 110003"
+  },
+  {
+    "name": "Taj Mahal Hotel New Delhi",
+    "description": "Iconic luxury hotel near India Gate offering elegant rooms and legendary hospitality.",
+    "category": "hotel",
+    "entry_fee": 18000,
+    "rating": 4.7,
+    "average_time": 1440,
+    "best_time_to_visit": "Anytime",
+    "tags": ["Luxury", "5-Star", "Heritage", "Central Location", "Business"],
+    "coordinates": {
+      "lat": 28.6139,
+      "lng": 77.2167
     },
-    {
-      "name": "Select Citywalk Mall",
-      "category": "shopping",
-      "rating": 4.5,
-      "opening_hours": "10:00",
-      "closing_hours": "22:00",
-      "address": "Saket, New Delhi, Delhi 110017",
-      "lat": 28.5244,
-      "lng": 77.2066
-    },
-    {
-      "name": "Dilli Haat",
-      "category": "shopping",
-      "rating": 4.4,
-      "opening_hours": "10:30",
-      "closing_hours": "22:00",
-      "address": "INA, New Delhi, Delhi 110023",
-      "lat": 28.5678,
-      "lng": 77.2066
-    },
-    {
-      "name": "The Leela Palace",
-      "category": "hotel",
-      "rating": 4.9,
-      "opening_hours": "00:00",
-      "closing_hours": "23:59",
-      "address": "Diplomatic Enclave, Chanakyapuri, New Delhi, Delhi 110023",
-      "lat": 28.5967,
-      "lng": 77.1654
-    },
-    {
-      "name": "The Oberoi",
-      "category": "hotel",
-      "rating": 4.8,
-      "opening_hours": "00:00",
-      "closing_hours": "23:59",
-      "address": "Dr Zakir Hussain Marg, New Delhi, Delhi 110003",
-      "lat": 28.5933,
-      "lng": 77.2176
-    }
-  ]
-}
+    "opening_hours": "00:00",
+    "closing_hours": "23:59",
+    "image_url": "https://example.com/taj-delhi.jpg",
+    "address": "Man Singh Road, Delhi 110011"
+  }
+]

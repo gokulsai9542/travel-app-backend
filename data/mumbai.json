@@ -1,195 +1,398 @@
-{
-  "city": "Mumbai",
-  "places": [
-    {
-      "name": "Gateway of India",
-      "category": "attraction",
-      "rating": 4.6,
-      "opening_hours": "00:00",
-      "closing_hours": "23:59",
-      "address": "Apollo Bandar, Colaba, Mumbai, Maharashtra 400001",
+[
+  {
+    "name": "Gateway of India",
+    "description": "Iconic 26m tall arch monument overlooking Arabian Sea, built to commemorate King George V's visit.",
+    "category": "attraction",
+    "entry_fee": 0,
+    "rating": 4.5,
+    "average_time": 60,
+    "best_time_to_visit": "Evening",
+    "tags": ["Landmark", "Heritage", "Photography", "Waterfront", "Architecture"],
+    "coordinates": {
       "lat": 18.9220,
       "lng": 72.8347
     },
-    {
-      "name": "Marine Drive",
-      "category": "attraction",
-      "rating": 4.5,
-      "opening_hours": "00:00",
-      "closing_hours": "23:59",
-      "address": "Netaji Subhashchandra Bose Road, Mumbai, Maharashtra 400020",
+    "opening_hours": "00:00",
+    "closing_hours": "23:59",
+    "image_url": "https://example.com/gateway-of-india.jpg",
+    "address": "Apollo Bandar, Colaba, Mumbai, Maharashtra 400001"
+  },
+  {
+    "name": "Marine Drive",
+    "description": "Picturesque 3.6km boulevard along the coast, famous for Queen's Necklace night view.",
+    "category": "attraction",
+    "entry_fee": 0,
+    "rating": 4.6,
+    "average_time": 90,
+    "best_time_to_visit": "Evening",
+    "tags": ["Waterfront", "Sunset", "Walking", "Photography", "Romantic"],
+    "coordinates": {
       "lat": 18.9432,
       "lng": 72.8236
     },
-    {
-      "name": "Elephanta Caves",
-      "category": "attraction",
-      "rating": 4.4,
-      "opening_hours": "09:00",
-      "closing_hours": "17:30",
-      "address": "Elephanta Island, Mumbai, Maharashtra 400094",
-      "lat": 18.9633,
-      "lng": 72.9315
-    },
-    {
-      "name": "Chhatrapati Shivaji Terminus",
-      "category": "attraction",
-      "rating": 4.5,
-      "opening_hours": "00:00",
-      "closing_hours": "23:59",
-      "address": "Chhatrapati Shivaji Terminus Area, Mumbai, Maharashtra 400001",
+    "opening_hours": "00:00",
+    "closing_hours": "23:59",
+    "image_url": "https://example.com/marine-drive.jpg",
+    "address": "Marine Drive, Mumbai, Maharashtra 400020"
+  },
+  {
+    "name": "Chhatrapati Shivaji Maharaj Terminus",
+    "description": "UNESCO World Heritage Victorian Gothic railway station, architectural marvel blending Indian and British styles.",
+    "category": "attraction",
+    "entry_fee": 0,
+    "rating": 4.7,
+    "average_time": 45,
+    "best_time_to_visit": "Morning",
+    "tags": ["Heritage", "Architecture", "UNESCO", "Photography", "Colonial"],
+    "coordinates": {
       "lat": 18.9398,
       "lng": 72.8355
     },
-    {
-      "name": "Haji Ali Dargah",
-      "category": "attraction",
-      "rating": 4.6,
-      "opening_hours": "05:30",
-      "closing_hours": "22:00",
-      "address": "Dargah Road, Haji Ali, Mumbai, Maharashtra 400034",
+    "opening_hours": "00:00",
+    "closing_hours": "23:59",
+    "image_url": "https://example.com/cst-mumbai.jpg",
+    "address": "CST, Mumbai, Maharashtra 400001"
+  },
+  {
+    "name": "Elephanta Caves",
+    "description": "Ancient rock-cut cave temples on island, featuring magnificent sculptures of Lord Shiva.",
+    "category": "attraction",
+    "entry_fee": 40,
+    "rating": 4.4,
+    "average_time": 180,
+    "best_time_to_visit": "Morning",
+    "tags": ["UNESCO", "Heritage", "Caves", "Sculpture", "Island"],
+    "coordinates": {
+      "lat": 18.9633,
+      "lng": 72.9315
+    },
+    "opening_hours": "09:00",
+    "closing_hours": "17:30",
+    "image_url": "https://example.com/elephanta-caves.jpg",
+    "address": "Elephanta Island, Mumbai, Maharashtra 400094"
+  },
+  {
+    "name": "Haji Ali Dargah",
+    "description": "Beautiful mosque and tomb on islet in Arabian Sea, accessible via causeway during low tide.",
+    "category": "attraction",
+    "entry_fee": 0,
+    "rating": 4.5,
+    "average_time": 90,
+    "best_time_to_visit": "Evening",
+    "tags": ["Religious", "Architecture", "Waterfront", "Spiritual", "Photography"],
+    "coordinates": {
       "lat": 18.9826,
       "lng": 72.8089
     },
-    {
-      "name": "Sanjay Gandhi National Park",
-      "category": "attraction",
-      "rating": 4.3,
-      "opening_hours": "07:30",
-      "closing_hours": "18:00",
-      "address": "Borivali East, Mumbai, Maharashtra 400066",
-      "lat": 19.2147,
-      "lng": 72.9101
+    "opening_hours": "05:30",
+    "closing_hours": "22:00",
+    "image_url": "https://example.com/haji-ali.jpg",
+    "address": "Haji Ali, Mumbai, Maharashtra 400034"
+  },
+  {
+    "name": "Siddhivinayak Temple",
+    "description": "Revered Hindu temple dedicated to Lord Ganesha, attracting millions of devotees annually.",
+    "category": "attraction",
+    "entry_fee": 0,
+    "rating": 4.6,
+    "average_time": 90,
+    "best_time_to_visit": "Morning",
+    "tags": ["Religious", "Spiritual", "Culture", "Heritage", "Crowded"],
+    "coordinates": {
+      "lat": 19.0168,
+      "lng": 72.8303
     },
-    {
-      "name": "Siddhivinayak Temple",
-      "category": "attraction",
-      "rating": 4.7,
-      "opening_hours": "05:30",
-      "closing_hours": "21:40",
-      "address": "Prabhadevi, Mumbai, Maharashtra 400028",
-      "lat": 19.0176,
-      "lng": 72.8301
-    },
-    {
-      "name": "Juhu Beach",
-      "category": "attraction",
-      "rating": 4.2,
-      "opening_hours": "00:00",
-      "closing_hours": "23:59",
-      "address": "Juhu Tara Road, Mumbai, Maharashtra 400049",
+    "opening_hours": "05:30",
+    "closing_hours": "22:00",
+    "image_url": "https://example.com/siddhivinayak.jpg",
+    "address": "Prabhadevi, Mumbai, Maharashtra 400028"
+  },
+  {
+    "name": "Juhu Beach",
+    "description": "Popular sandy beach with street food stalls, entertainment, and celebrity homes nearby.",
+    "category": "attraction",
+    "entry_fee": 0,
+    "rating": 4.2,
+    "average_time": 120,
+    "best_time_to_visit": "Evening",
+    "tags": ["Beach", "Sunset", "Street Food", "Family", "Entertainment"],
+    "coordinates": {
       "lat": 19.0990,
       "lng": 72.8265
     },
-    {
-      "name": "Leopold Cafe",
-      "category": "food",
-      "rating": 4.2,
-      "opening_hours": "08:00",
-      "closing_hours": "00:30",
-      "address": "Colaba Causeway, Mumbai, Maharashtra 400001",
-      "lat": 18.9220,
-      "lng": 72.8310
+    "opening_hours": "00:00",
+    "closing_hours": "23:59",
+    "image_url": "https://example.com/juhu-beach.jpg",
+    "address": "Juhu, Mumbai, Maharashtra 400049"
+  },
+  {
+    "name": "Sanjay Gandhi National Park",
+    "description": "Large national park within city limits featuring Kanheri Caves, wildlife, and nature trails.",
+    "category": "attraction",
+    "entry_fee": 50,
+    "rating": 4.3,
+    "average_time": 240,
+    "best_time_to_visit": "Morning",
+    "tags": ["Nature", "Wildlife", "Hiking", "Caves", "Park"],
+    "coordinates": {
+      "lat": 19.2148,
+      "lng": 72.9080
     },
-    {
-      "name": "Britannia & Co.",
-      "category": "food",
-      "rating": 4.3,
-      "opening_hours": "11:30",
-      "closing_hours": "16:00",
-      "address": "Ballard Estate, Mumbai, Maharashtra 400001",
+    "opening_hours": "07:30",
+    "closing_hours": "18:00",
+    "image_url": "https://example.com/sgnp.jpg",
+    "address": "Borivali East, Mumbai, Maharashtra 400066"
+  },
+  {
+    "name": "Bandra-Worli Sea Link",
+    "description": "Engineering marvel - 5.6km cable-stayed bridge offering spectacular Arabian Sea views.",
+    "category": "attraction",
+    "entry_fee": 75,
+    "rating": 4.5,
+    "average_time": 30,
+    "best_time_to_visit": "Evening",
+    "tags": ["Landmark", "Engineering", "Scenic Drive", "Photography", "Modern"],
+    "coordinates": {
+      "lat": 19.0298,
+      "lng": 72.8177
+    },
+    "opening_hours": "00:00",
+    "closing_hours": "23:59",
+    "image_url": "https://example.com/sea-link.jpg",
+    "address": "Bandra-Worli Sea Link, Mumbai, Maharashtra 400050"
+  },
+  {
+    "name": "Britannia & Co.",
+    "description": "Heritage Parsi restaurant since 1923, famous for berry pulao and traditional Parsi cuisine.",
+    "category": "food",
+    "entry_fee": 600,
+    "rating": 4.4,
+    "average_time": 75,
+    "best_time_to_visit": "Afternoon",
+    "tags": ["Parsi Cuisine", "Heritage", "Traditional", "Non-Veg", "Authentic"],
+    "coordinates": {
       "lat": 18.9398,
-      "lng": 72.8389
+      "lng": 72.8310
     },
-    {
-      "name": "Trishna Restaurant",
-      "category": "food",
-      "rating": 4.5,
-      "opening_hours": "12:30",
-      "closing_hours": "23:30",
-      "address": "Kala Ghoda, Fort, Mumbai, Maharashtra 400001",
-      "lat": 18.9298,
-      "lng": 72.8322
+    "opening_hours": "11:30",
+    "closing_hours": "16:00",
+    "image_url": "https://example.com/britannia.jpg",
+    "address": "Ballard Estate, Fort, Mumbai, Maharashtra 400001"
+  },
+  {
+    "name": "Leopold Cafe",
+    "description": "Iconic cafe and bar since 1871, popular with tourists, serving continental and Indian dishes.",
+    "category": "food",
+    "entry_fee": 700,
+    "rating": 4.2,
+    "average_time": 90,
+    "best_time_to_visit": "Evening",
+    "tags": ["Continental", "Heritage", "Bar", "Cafe", "Tourist Spot"],
+    "coordinates": {
+      "lat": 18.9220,
+      "lng": 72.8320
     },
-    {
-      "name": "Cafe Mondegar",
-      "category": "food",
-      "rating": 4.2,
-      "opening_hours": "08:00",
-      "closing_hours": "00:30",
-      "address": "Colaba Causeway, Mumbai, Maharashtra 400001",
+    "opening_hours": "08:00",
+    "closing_hours": "00:30",
+    "image_url": "https://example.com/leopold.jpg",
+    "address": "Colaba Causeway, Mumbai, Maharashtra 400001"
+  },
+  {
+    "name": "Trishna",
+    "description": "Legendary seafood restaurant famous for butter garlic crab and coastal delicacies.",
+    "category": "food",
+    "entry_fee": 1500,
+    "rating": 4.5,
+    "average_time": 90,
+    "best_time_to_visit": "Evening",
+    "tags": ["Seafood", "Fine Dining", "Coastal", "Crab", "Popular"],
+    "coordinates": {
+      "lat": 18.9398,
+      "lng": 72.8310
+    },
+    "opening_hours": "12:00",
+    "closing_hours": "23:30",
+    "image_url": "https://example.com/trishna.jpg",
+    "address": "Fort, Mumbai, Maharashtra 400001"
+  },
+  {
+    "name": "Wasabi by Morimoto",
+    "description": "Premium Japanese restaurant at Taj Mahal Palace, featuring sushi and contemporary Japanese cuisine.",
+    "category": "food",
+    "entry_fee": 4000,
+    "rating": 4.7,
+    "average_time": 120,
+    "best_time_to_visit": "Evening",
+    "tags": ["Fine Dining", "Japanese", "Sushi", "Luxury", "Celebrity Chef"],
+    "coordinates": {
+      "lat": 18.9220,
+      "lng": 72.8332
+    },
+    "opening_hours": "12:30",
+    "closing_hours": "14:45",
+    "image_url": "https://example.com/wasabi.jpg",
+    "address": "Taj Mahal Palace, Colaba, Mumbai, Maharashtra 400001"
+  },
+  {
+    "name": "Khyber Restaurant",
+    "description": "Upscale North Indian restaurant with art gallery ambiance and rich Mughlai flavors.",
+    "category": "food",
+    "entry_fee": 1800,
+    "rating": 4.4,
+    "average_time": 120,
+    "best_time_to_visit": "Evening",
+    "tags": ["North Indian", "Fine Dining", "Mughlai", "Art", "Traditional"],
+    "coordinates": {
       "lat": 18.9220,
       "lng": 72.8310
     },
-    {
-      "name": "Bademiya",
-      "category": "food",
-      "rating": 4.4,
-      "opening_hours": "17:00",
-      "closing_hours": "03:00",
-      "address": "Tulloch Road, Colaba, Mumbai, Maharashtra 400001",
+    "opening_hours": "12:30",
+    "closing_hours": "15:30",
+    "image_url": "https://example.com/khyber.jpg",
+    "address": "Fort, Mumbai, Maharashtra 400001"
+  },
+  {
+    "name": "Bade Miyan",
+    "description": "Iconic street food stall serving legendary kebabs, rolls, and Mughlai dishes since 1940.",
+    "category": "food",
+    "entry_fee": 400,
+    "rating": 4.3,
+    "average_time": 45,
+    "best_time_to_visit": "Night",
+    "tags": ["Street Food", "Non-Veg", "Kebabs", "Budget-Friendly", "Late Night"],
+    "coordinates": {
+      "lat": 18.9220,
+      "lng": 72.8320
+    },
+    "opening_hours": "19:00",
+    "closing_hours": "03:30",
+    "image_url": "https://example.com/bade-miyan.jpg",
+    "address": "Colaba, Mumbai, Maharashtra 400005"
+  },
+  {
+    "name": "Colaba Causeway",
+    "description": "Bustling street market with clothes, accessories, antiques, and street food.",
+    "category": "shopping",
+    "entry_fee": 0,
+    "rating": 4.3,
+    "average_time": 180,
+    "best_time_to_visit": "Afternoon",
+    "tags": ["Street Shopping", "Handicrafts", "Fashion", "Budget-Friendly", "Tourist"],
+    "coordinates": {
       "lat": 18.9220,
       "lng": 72.8310
     },
-    {
-      "name": "Colaba Causeway",
-      "category": "shopping",
-      "rating": 4.3,
-      "opening_hours": "10:00",
-      "closing_hours": "21:30",
-      "address": "Colaba Causeway, Mumbai, Maharashtra 400001",
-      "lat": 18.9220,
+    "opening_hours": "10:00",
+    "closing_hours": "22:00",
+    "image_url": "https://example.com/colaba-causeway.jpg",
+    "address": "Colaba, Mumbai, Maharashtra 400001"
+  },
+  {
+    "name": "Linking Road",
+    "description": "Famous street shopping destination for trendy clothes, shoes, and accessories at bargain prices.",
+    "category": "shopping",
+    "entry_fee": 0,
+    "rating": 4.4,
+    "average_time": 180,
+    "best_time_to_visit": "Evening",
+    "tags": ["Street Shopping", "Fashion", "Bargain", "Trendy", "Local"],
+    "coordinates": {
+      "lat": 19.0544,
+      "lng": 72.8294
+    },
+    "opening_hours": "11:00",
+    "closing_hours": "22:00",
+    "image_url": "https://example.com/linking-road.jpg",
+    "address": "Bandra West, Mumbai, Maharashtra 400050"
+  },
+  {
+    "name": "Phoenix Palladium",
+    "description": "Luxury mall with high-end international brands, fine dining, and multiplex cinema.",
+    "category": "shopping",
+    "entry_fee": 0,
+    "rating": 4.5,
+    "average_time": 240,
+    "best_time_to_visit": "Afternoon",
+    "tags": ["Luxury", "Mall", "International Brands", "Fine Dining", "Premium"],
+    "coordinates": {
+      "lat": 19.0898,
       "lng": 72.8310
     },
-    {
-      "name": "Crawford Market",
-      "category": "shopping",
-      "rating": 4.2,
-      "opening_hours": "09:00",
-      "closing_hours": "20:00",
-      "address": "Lokmanya Tilak Marg, Mumbai, Maharashtra 400001",
-      "lat": 18.9465,
-      "lng": 72.8349
+    "opening_hours": "11:00",
+    "closing_hours": "23:00",
+    "image_url": "https://example.com/phoenix-palladium.jpg",
+    "address": "Lower Parel, Mumbai, Maharashtra 400013"
+  },
+  {
+    "name": "Crawford Market",
+    "description": "Historic Victorian-era market selling fresh produce, spices, pets, and household goods.",
+    "category": "shopping",
+    "entry_fee": 0,
+    "rating": 4.2,
+    "average_time": 120,
+    "best_time_to_visit": "Morning",
+    "tags": ["Market", "Heritage", "Spices", "Fresh Produce", "Local"],
+    "coordinates": {
+      "lat": 18.9467,
+      "lng": 72.8342
     },
-    {
-      "name": "Phoenix Palladium",
-      "category": "shopping",
-      "rating": 4.5,
-      "opening_hours": "11:00",
-      "closing_hours": "23:00",
-      "address": "Lower Parel, Mumbai, Maharashtra 400013",
-      "lat": 19.0010,
-      "lng": 72.8278
-    },
-    {
-      "name": "Linking Road",
-      "category": "shopping",
-      "rating": 4.3,
-      "opening_hours": "10:00",
-      "closing_hours": "21:00",
-      "address": "Bandra West, Mumbai, Maharashtra 400050",
-      "lat": 19.0596,
-      "lng": 72.8295
-    },
-    {
-      "name": "Taj Mahal Palace",
-      "category": "hotel",
-      "rating": 4.8,
-      "opening_hours": "00:00",
-      "closing_hours": "23:59",
-      "address": "Apollo Bandar, Colaba, Mumbai, Maharashtra 400001",
+    "opening_hours": "09:00",
+    "closing_hours": "20:00",
+    "image_url": "https://example.com/crawford-market.jpg",
+    "address": "Lokmanya Tilak Marg, Mumbai, Maharashtra 400001"
+  },
+  {
+    "name": "The Taj Mahal Palace",
+    "description": "Legendary luxury hotel overlooking Gateway of India, epitome of grandeur and hospitality since 1903.",
+    "category": "hotel",
+    "entry_fee": 28000,
+    "rating": 4.9,
+    "average_time": 1440,
+    "best_time_to_visit": "Anytime",
+    "tags": ["Ultra-Luxury", "5-Star", "Heritage", "Iconic", "Waterfront"],
+    "coordinates": {
       "lat": 18.9220,
-      "lng": 72.8347
+      "lng": 72.8332
     },
-    {
-      "name": "The Oberoi Mumbai",
-      "category": "hotel",
-      "rating": 4.8,
-      "opening_hours": "00:00",
-      "closing_hours": "23:59",
-      "address": "Nariman Point, Mumbai, Maharashtra 400021",
-      "lat": 18.9254,
-      "lng": 72.8198
-    }
-  ]
-}
+    "opening_hours": "00:00",
+    "closing_hours": "23:59",
+    "image_url": "https://example.com/taj-mahal-palace.jpg",
+    "address": "Apollo Bunder, Colaba, Mumbai, Maharashtra 400001"
+  },
+  {
+    "name": "The Oberoi Mumbai",
+    "description": "Contemporary luxury hotel with stunning sea views, award-winning restaurants, and spa.",
+    "category": "hotel",
+    "entry_fee": 24000,
+    "rating": 4.8,
+    "average_time": 1440,
+    "best_time_to_visit": "Anytime",
+    "tags": ["Luxury", "5-Star", "Waterfront", "Modern", "Spa"],
+    "coordinates": {
+      "lat": 18.9932,
+      "lng": 72.8178
+    },
+    "opening_hours": "00:00",
+    "closing_hours": "23:59",
+    "image_url": "https://example.com/oberoi-mumbai.jpg",
+    "address": "Nariman Point, Mumbai, Maharashtra 400021"
+  },
+  {
+    "name": "Trident Nariman Point",
+    "description": "Elegant 5-star hotel with Arabian Sea views, contemporary design, and excellent dining.",
+    "category": "hotel",
+    "entry_fee": 15000,
+    "rating": 4.6,
+    "average_time": 1440,
+    "best_time_to_visit": "Anytime",
+    "tags": ["Luxury", "5-Star", "Business", "Waterfront", "Modern"],
+    "coordinates": {
+      "lat": 18.9267,
+      "lng": 72.8233
+    },
+    "opening_hours": "00:00",
+    "closing_hours": "23:59",
+    "image_url": "https://example.com/trident-mumbai.jpg",
+    "address": "Nariman Point, Mumbai, Maharashtra 400021"
+  }
+]

@@ -1,195 +1,380 @@
-{
-  "city": "Bangalore",
-  "places": [
-    {
-      "name": "Lalbagh Botanical Garden",
-      "category": "attraction",
-      "rating": 4.6,
-      "opening_hours": "06:00",
-      "closing_hours": "19:00",
-      "address": "Mavalli, Bengaluru, Karnataka 560004",
+[
+  {
+    "name": "Lalbagh Botanical Garden",
+    "description": "Historic 240-acre botanical garden with diverse flora, glasshouse, and famous flower shows.",
+    "category": "attraction",
+    "entry_fee": 30,
+    "rating": 4.6,
+    "average_time": 150,
+    "best_time_to_visit": "Morning",
+    "tags": ["Garden", "Nature", "Photography", "Walking", "Family"],
+    "coordinates": {
       "lat": 12.9507,
       "lng": 77.5848
     },
-    {
-      "name": "Bangalore Palace",
-      "category": "attraction",
-      "rating": 4.5,
-      "opening_hours": "10:00",
-      "closing_hours": "17:30",
-      "address": "Vasanth Nagar, Bengaluru, Karnataka 560052",
-      "lat": 12.9984,
-      "lng": 77.5920
+    "opening_hours": "06:00",
+    "closing_hours": "19:00",
+    "image_url": "https://example.com/lalbagh.jpg",
+    "address": "Mavalli, Bangalore, Karnataka 560004"
+  },
+  {
+    "name": "Bangalore Palace",
+    "description": "Magnificent Tudor-style palace with stunning architecture, royal artifacts, and beautiful gardens.",
+    "category": "attraction",
+    "entry_fee": 280,
+    "rating": 4.5,
+    "average_time": 120,
+    "best_time_to_visit": "Morning",
+    "tags": ["Heritage", "Architecture", "History", "Photography", "Royal"],
+    "coordinates": {
+      "lat": 12.9986,
+      "lng": 77.5926
     },
-    {
-      "name": "Cubbon Park",
-      "category": "attraction",
-      "rating": 4.4,
-      "opening_hours": "06:00",
-      "closing_hours": "18:00",
-      "address": "Kasturba Road, Bengaluru, Karnataka 560001",
-      "lat": 12.9763,
+    "opening_hours": "10:00",
+    "closing_hours": "17:30",
+    "image_url": "https://example.com/bangalore-palace.jpg",
+    "address": "Vasanth Nagar, Bangalore, Karnataka 560052"
+  },
+  {
+    "name": "Cubbon Park",
+    "description": "Sprawling 300-acre green lung in city center with walking paths, statues, and Victorian buildings.",
+    "category": "attraction",
+    "entry_fee": 0,
+    "rating": 4.5,
+    "average_time": 120,
+    "best_time_to_visit": "Morning",
+    "tags": ["Park", "Nature", "Walking", "Jogging", "Family"],
+    "coordinates": {
+      "lat": 12.9762,
       "lng": 77.5929
     },
-    {
-      "name": "ISKCON Temple",
-      "category": "attraction",
-      "rating": 4.7,
-      "opening_hours": "07:15",
-      "closing_hours": "20:00",
-      "address": "Hare Krishna Hill, Chord Road, Bengaluru, Karnataka 560010",
+    "opening_hours": "06:00",
+    "closing_hours": "18:00",
+    "image_url": "https://example.com/cubbon-park.jpg",
+    "address": "Kasturba Road, Bangalore, Karnataka 560001"
+  },
+  {
+    "name": "Vidhana Soudha",
+    "description": "Iconic legislative building showcasing Neo-Dravidian architecture, beautifully illuminated at night.",
+    "category": "attraction",
+    "entry_fee": 0,
+    "rating": 4.4,
+    "average_time": 30,
+    "best_time_to_visit": "Evening",
+    "tags": ["Architecture", "Landmark", "Photography", "Government", "Heritage"],
+    "coordinates": {
+      "lat": 12.9796,
+      "lng": 77.5905
+    },
+    "opening_hours": "00:00",
+    "closing_hours": "23:59",
+    "image_url": "https://example.com/vidhana-soudha.jpg",
+    "address": "Dr. Ambedkar Veedhi, Bangalore, Karnataka 560001"
+  },
+  {
+    "name": "ISKCON Temple",
+    "description": "Grand Krishna temple with beautiful architecture, spiritual atmosphere, and cultural programs.",
+    "category": "attraction",
+    "entry_fee": 0,
+    "rating": 4.6,
+    "average_time": 90,
+    "best_time_to_visit": "Evening",
+    "tags": ["Religious", "Spiritual", "Architecture", "Peace", "Culture"],
+    "coordinates": {
+      "lat": 13.0096,
+      "lng": 77.5511
+    },
+    "opening_hours": "04:15",
+    "closing_hours": "21:00",
+    "image_url": "https://example.com/iskcon-blr.jpg",
+    "address": "Rajajinagar, Bangalore, Karnataka 560010"
+  },
+  {
+    "name": "Bannerghatta National Park",
+    "description": "Biological reserve with safari park, butterfly park, and zoo housing diverse wildlife.",
+    "category": "attraction",
+    "entry_fee": 100,
+    "rating": 4.2,
+    "average_time": 240,
+    "best_time_to_visit": "Morning",
+    "tags": ["Wildlife", "Nature", "Safari", "Family", "Zoo"],
+    "coordinates": {
+      "lat": 12.8006,
+      "lng": 77.5773
+    },
+    "opening_hours": "09:30",
+    "closing_hours": "17:00",
+    "image_url": "https://example.com/bannerghatta.jpg",
+    "address": "Bannerghatta, Bangalore, Karnataka 560083"
+  },
+  {
+    "name": "Wonderla Amusement Park",
+    "description": "Premier theme park with thrilling rides, water attractions, and family entertainment.",
+    "category": "attraction",
+    "entry_fee": 1199,
+    "rating": 4.5,
+    "average_time": 360,
+    "best_time_to_visit": "Morning",
+    "tags": ["Theme Park", "Water Park", "Family", "Entertainment", "Adventure"],
+    "coordinates": {
+      "lat": 12.8345,
+      "lng": 77.3987
+    },
+    "opening_hours": "11:00",
+    "closing_hours": "18:00",
+    "image_url": "https://example.com/wonderla-blr.jpg",
+    "address": "Bidadi, Bangalore, Karnataka 562109"
+  },
+  {
+    "name": "Tipu Sultan's Summer Palace",
+    "description": "18th-century wooden palace with Indo-Islamic architecture and historical significance.",
+    "category": "attraction",
+    "entry_fee": 20,
+    "rating": 4.1,
+    "average_time": 60,
+    "best_time_to_visit": "Morning",
+    "tags": ["Heritage", "Architecture", "History", "Museum", "Culture"],
+    "coordinates": {
+      "lat": 12.9591,
+      "lng": 77.5744
+    },
+    "opening_hours": "08:30",
+    "closing_hours": "17:30",
+    "image_url": "https://example.com/tipu-palace.jpg",
+    "address": "Chickpet, Bangalore, Karnataka 560053"
+  },
+  {
+    "name": "MTR (Mavalli Tiffin Room)",
+    "description": "Legendary restaurant serving authentic Karnataka breakfast since 1924, famous for dosas and filter coffee.",
+    "category": "food",
+    "entry_fee": 250,
+    "rating": 4.5,
+    "average_time": 60,
+    "best_time_to_visit": "Morning",
+    "tags": ["South Indian", "Heritage", "Breakfast", "Traditional", "Vegetarian"],
+    "coordinates": {
+      "lat": 12.9343,
+      "lng": 77.5846
+    },
+    "opening_hours": "06:30",
+    "closing_hours": "11:00",
+    "image_url": "https://example.com/mtr-bangalore.jpg",
+    "address": "Lalbagh Road, Bangalore, Karnataka 560004"
+  },
+  {
+    "name": "Vidyarthi Bhavan",
+    "description": "Iconic eatery famous for crispy masala dosas and traditional South Indian fare since 1943.",
+    "category": "food",
+    "entry_fee": 150,
+    "rating": 4.4,
+    "average_time": 45,
+    "best_time_to_visit": "Morning",
+    "tags": ["South Indian", "Heritage", "Dosa", "Budget-Friendly", "Local"],
+    "coordinates": {
+      "lat": 12.9539,
+      "lng": 77.5788
+    },
+    "opening_hours": "06:30",
+    "closing_hours": "14:30",
+    "image_url": "https://example.com/vidyarthi-bhavan.jpg",
+    "address": "Gandhi Bazaar, Bangalore, Karnataka 560004"
+  },
+  {
+    "name": "Karavalli",
+    "description": "Award-winning coastal cuisine restaurant at Taj Gateway, specializing in seafood and regional dishes.",
+    "category": "food",
+    "entry_fee": 2000,
+    "rating": 4.7,
+    "average_time": 120,
+    "best_time_to_visit": "Evening",
+    "tags": ["Fine Dining", "Coastal", "Seafood", "Luxury", "South Indian"],
+    "coordinates": {
       "lat": 12.9716,
       "lng": 77.5946
     },
-    {
-      "name": "Vidhana Soudha",
-      "category": "attraction",
-      "rating": 4.3,
-      "opening_hours": "09:00",
-      "closing_hours": "17:00",
-      "address": "Ambedkar Veedhi, Sampangi Rama Nagar, Bengaluru, Karnataka 560001",
-      "lat": 12.9796,
-      "lng": 77.5913
-    },
-    {
-      "name": "Bannerghatta National Park",
-      "category": "attraction",
-      "rating": 4.2,
-      "opening_hours": "09:30",
-      "closing_hours": "17:00",
-      "address": "Bannerghatta, Bengaluru, Karnataka 560083",
-      "lat": 12.7987,
-      "lng": 77.5788
-    },
-    {
-      "name": "Tipu Sultan's Summer Palace",
-      "category": "attraction",
-      "rating": 4.1,
-      "opening_hours": "08:30",
-      "closing_hours": "17:30",
-      "address": "Bangalore City, Bengaluru, Karnataka 560002",
-      "lat": 12.9591,
-      "lng": 77.5742
-    },
-    {
-      "name": "Wonderla Amusement Park",
-      "category": "attraction",
-      "rating": 4.5,
-      "opening_hours": "11:00",
-      "closing_hours": "18:00",
-      "address": "28th km, Mysore Road, Bengaluru, Karnataka 562109",
-      "lat": 12.8347,
-      "lng": 77.3991
-    },
-    {
-      "name": "MTR Restaurant",
-      "category": "food",
-      "rating": 4.4,
-      "opening_hours": "06:30",
-      "closing_hours": "22:00",
-      "address": "Lalbagh Road, Mavalli, Bengaluru, Karnataka 560004",
-      "lat": 12.9516,
-      "lng": 77.5844
-    },
-    {
-      "name": "Vidyarthi Bhavan",
-      "category": "food",
-      "rating": 4.3,
-      "opening_hours": "07:30",
-      "closing_hours": "14:30",
-      "address": "Gandhi Bazaar, Basavanagudi, Bengaluru, Karnataka 560004",
-      "lat": 12.9437,
-      "lng": 77.5744
-    },
-    {
-      "name": "Koshy's Restaurant",
-      "category": "food",
-      "rating": 4.2,
-      "opening_hours": "08:30",
-      "closing_hours": "23:00",
-      "address": "St. Mark's Road, Bengaluru, Karnataka 560001",
-      "lat": 12.9716,
-      "lng": 77.6006
-    },
-    {
-      "name": "Toit Brewpub",
-      "category": "food",
-      "rating": 4.5,
-      "opening_hours": "12:00",
-      "closing_hours": "23:30",
-      "address": "Indiranagar, Bengaluru, Karnataka 560038",
+    "opening_hours": "12:30",
+    "closing_hours": "23:45",
+    "image_url": "https://example.com/karavalli.jpg",
+    "address": "The Gateway Hotel, Residency Road, Bangalore, Karnataka 560025"
+  },
+  {
+    "name": "Toit",
+    "description": "Popular brewpub with craft beers, wood-fired pizzas, and lively atmosphere.",
+    "category": "food",
+    "entry_fee": 1200,
+    "rating": 4.4,
+    "average_time": 120,
+    "best_time_to_visit": "Evening",
+    "tags": ["Brewpub", "Continental", "Craft Beer", "Pizza", "Nightlife"],
+    "coordinates": {
       "lat": 12.9716,
       "lng": 77.6412
     },
-    {
-      "name": "Truffles",
-      "category": "food",
-      "rating": 4.4,
-      "opening_hours": "12:00",
-      "closing_hours": "23:00",
-      "address": "Koramangala, Bengaluru, Karnataka 560034",
-      "lat": 12.9352,
-      "lng": 77.6245
-    },
-    {
-      "name": "Commercial Street",
-      "category": "shopping",
-      "rating": 4.3,
-      "opening_hours": "10:00",
-      "closing_hours": "21:00",
-      "address": "Commercial Street, Shivaji Nagar, Bengaluru, Karnataka 560001",
-      "lat": 12.9833,
-      "lng": 77.6089
-    },
-    {
-      "name": "Brigade Road",
-      "category": "shopping",
-      "rating": 4.2,
-      "opening_hours": "10:00",
-      "closing_hours": "21:30",
-      "address": "Brigade Road, Bengaluru, Karnataka 560001",
-      "lat": 12.9719,
-      "lng": 77.6054
-    },
-    {
-      "name": "UB City Mall",
-      "category": "shopping",
-      "rating": 4.4,
-      "opening_hours": "10:00",
-      "closing_hours": "22:00",
-      "address": "Vittal Mallya Road, Bengaluru, Karnataka 560001",
+    "opening_hours": "12:00",
+    "closing_hours": "23:30",
+    "image_url": "https://example.com/toit.jpg",
+    "address": "Indiranagar, Bangalore, Karnataka 560038"
+  },
+  {
+    "name": "Rim Naam",
+    "description": "Elegant Thai restaurant at The Oberoi with outdoor seating and authentic royal Thai cuisine.",
+    "category": "food",
+    "entry_fee": 2500,
+    "rating": 4.6,
+    "average_time": 120,
+    "best_time_to_visit": "Evening",
+    "tags": ["Fine Dining", "Thai", "Luxury", "Romantic", "Outdoor"],
+    "coordinates": {
       "lat": 12.9716,
       "lng": 77.5946
     },
-    {
-      "name": "Phoenix Marketcity",
-      "category": "shopping",
-      "rating": 4.5,
-      "opening_hours": "10:00",
-      "closing_hours": "22:00",
-      "address": "Whitefield, Bengaluru, Karnataka 560048",
-      "lat": 12.9986,
-      "lng": 77.6964
+    "opening_hours": "19:00",
+    "closing_hours": "23:30",
+    "image_url": "https://example.com/rim-naam.jpg",
+    "address": "The Oberoi, MG Road, Bangalore, Karnataka 560001"
+  },
+  {
+    "name": "Meghana Foods",
+    "description": "Popular chain serving Andhra-style biryanis and spicy non-vegetarian dishes.",
+    "category": "food",
+    "entry_fee": 400,
+    "rating": 4.3,
+    "average_time": 60,
+    "best_time_to_visit": "Afternoon",
+    "tags": ["Andhra Cuisine", "Biryani", "Non-Veg", "Spicy", "Family"],
+    "coordinates": {
+      "lat": 12.9716,
+      "lng": 77.5946
     },
-    {
-      "name": "The Leela Palace",
-      "category": "hotel",
-      "rating": 4.8,
-      "opening_hours": "00:00",
-      "closing_hours": "23:59",
-      "address": "23, HAL Old Airport Road, Bengaluru, Karnataka 560008",
-      "lat": 12.9575,
-      "lng": 77.6533
+    "opening_hours": "11:30",
+    "closing_hours": "23:30",
+    "image_url": "https://example.com/meghana-foods.jpg",
+    "address": "Multiple locations, Bangalore"
+  },
+  {
+    "name": "Commercial Street",
+    "description": "Historic shopping street with diverse stores selling clothing, accessories, jewelry, and handicrafts.",
+    "category": "shopping",
+    "entry_fee": 0,
+    "rating": 4.3,
+    "average_time": 180,
+    "best_time_to_visit": "Afternoon",
+    "tags": ["Street Shopping", "Fashion", "Jewelry", "Budget-Friendly", "Local"],
+    "coordinates": {
+      "lat": 12.9833,
+      "lng": 77.6089
     },
-    {
-      "name": "Taj West End",
-      "category": "hotel",
-      "rating": 4.7,
-      "opening_hours": "00:00",
-      "closing_hours": "23:59",
-      "address": "Race Course Road, Bengaluru, Karnataka 560001",
-      "lat": 12.9897,
-      "lng": 77.5926
-    }
-  ]
-}
+    "opening_hours": "10:30",
+    "closing_hours": "21:00",
+    "image_url": "https://example.com/commercial-street.jpg",
+    "address": "Commercial Street, Bangalore, Karnataka 560001"
+  },
+  {
+    "name": "Brigade Road",
+    "description": "Popular shopping and entertainment hub with branded stores, cafes, and pubs.",
+    "category": "shopping",
+    "entry_fee": 0,
+    "rating": 4.4,
+    "average_time": 180,
+    "best_time_to_visit": "Evening",
+    "tags": ["Shopping", "Entertainment", "Brands", "Nightlife", "Fashion"],
+    "coordinates": {
+      "lat": 12.9716,
+      "lng": 77.6081
+    },
+    "opening_hours": "10:00",
+    "closing_hours": "22:00",
+    "image_url": "https://example.com/brigade-road.jpg",
+    "address": "Brigade Road, Bangalore, Karnataka 560025"
+  },
+  {
+    "name": "UB City Mall",
+    "description": "Luxury shopping mall with international brands, fine dining restaurants, and art galleries.",
+    "category": "shopping",
+    "entry_fee": 0,
+    "rating": 4.5,
+    "average_time": 240,
+    "best_time_to_visit": "Afternoon",
+    "tags": ["Luxury", "Mall", "International Brands", "Fine Dining", "Premium"],
+    "coordinates": {
+      "lat": 12.9716,
+      "lng": 77.5946
+    },
+    "opening_hours": "11:00",
+    "closing_hours": "23:00",
+    "image_url": "https://example.com/ub-city.jpg",
+    "address": "Vittal Mallya Road, Bangalore, Karnataka 560001"
+  },
+  {
+    "name": "Phoenix Marketcity",
+    "description": "Large shopping mall with diverse brands, multiplex, food court, and entertainment options.",
+    "category": "shopping",
+    "entry_fee": 0,
+    "rating": 4.4,
+    "average_time": 300,
+    "best_time_to_visit": "Afternoon",
+    "tags": ["Mall", "Shopping", "Cinema", "Family", "Entertainment"],
+    "coordinates": {
+      "lat": 12.9983,
+      "lng": 77.6975
+    },
+    "opening_hours": "10:00",
+    "closing_hours": "22:00",
+    "image_url": "https://example.com/phoenix-blr.jpg",
+    "address": "Whitefield, Bangalore, Karnataka 560066"
+  },
+  {
+    "name": "The Leela Palace",
+    "description": "Ultra-luxury hotel with royal decor, world-class spa, and exceptional fine dining options.",
+    "category": "hotel",
+    "entry_fee": 22000,
+    "rating": 4.9,
+    "average_time": 1440,
+    "best_time_to_visit": "Anytime",
+    "tags": ["Ultra-Luxury", "5-Star", "Spa", "Fine Dining", "Royal"],
+    "coordinates": {
+      "lat": 12.9316,
+      "lng": 77.6237
+    },
+    "opening_hours": "00:00",
+    "closing_hours": "23:59",
+    "image_url": "https://example.com/leela-palace-blr.jpg",
+    "address": "Old Airport Road, Bangalore, Karnataka 560008"
+  },
+  {
+    "name": "Taj West End",
+    "description": "Heritage luxury hotel with lush gardens, colonial architecture, and impeccable service.",
+    "category": "hotel",
+    "entry_fee": 15000,
+    "rating": 4.8,
+    "average_time": 1440,
+    "best_time_to_visit": "Anytime",
+    "tags": ["Luxury", "5-Star", "Heritage", "Gardens", "Colonial"],
+    "coordinates": {
+      "lat": 12.9756,
+      "lng": 77.5918
+    },
+    "opening_hours": "00:00",
+    "closing_hours": "23:59",
+    "image_url": "https://example.com/taj-west-end.jpg",
+    "address": "Race Course Road, Bangalore, Karnataka 560001"
+  },
+  {
+    "name": "ITC Gardenia",
+    "description": "Eco-friendly luxury hotel with modern amenities, award-winning restaurants, and spa.",
+    "category": "hotel",
+    "entry_fee": 12000,
+    "rating": 4.7,
+    "average_time": 1440,
+    "best_time_to_visit": "Anytime",
+    "tags": ["Luxury", "5-Star", "Eco-Friendly", "Spa", "Business"],
+    "coordinates": {
+      "lat": 12.9716,
+      "lng": 77.5946
+    },
+    "opening_hours": "00:00",
+    "closing_hours": "23:59",
+    "image_url": "https://example.com/itc-gardenia.jpg",
+    "address": "Residency Road, Bangalore, Karnataka 560025"
+  }
+]

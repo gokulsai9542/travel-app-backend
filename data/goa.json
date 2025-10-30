@@ -1,195 +1,362 @@
-{
-  "city": "Goa",
-  "places": [
-    {
-      "name": "Baga Beach",
-      "category": "attraction",
-      "rating": 4.4,
-      "opening_hours": "00:00",
-      "closing_hours": "23:59",
-      "address": "Baga, Goa 403516",
-      "lat": 15.5559,
-      "lng": 73.7517
+[
+  {
+    "name": "Baga Beach",
+    "description": "Popular sandy beach known for water sports, beach shacks, nightlife, and vibrant atmosphere.",
+    "category": "attraction",
+    "entry_fee": 0,
+    "rating": 4.4,
+    "average_time": 180,
+    "best_time_to_visit": "Evening",
+    "tags": ["Beach", "Water Sports", "Nightlife", "Sunset", "Popular"],
+    "coordinates": {
+      "lat": 15.5557,
+      "lng": 73.7516
     },
-    {
-      "name": "Basilica of Bom Jesus",
-      "category": "attraction",
-      "rating": 4.6,
-      "opening_hours": "09:00",
-      "closing_hours": "18:30",
-      "address": "Old Goa, Goa 403402",
+    "opening_hours": "00:00",
+    "closing_hours": "23:59",
+    "image_url": "https://example.com/baga-beach.jpg",
+    "address": "Baga, North Goa, Goa 403516"
+  },
+  {
+    "name": "Calangute Beach",
+    "description": "Largest and most commercial beach in Goa, offering shopping, water activities, and beach parties.",
+    "category": "attraction",
+    "entry_fee": 0,
+    "rating": 4.3,
+    "average_time": 180,
+    "best_time_to_visit": "Evening",
+    "tags": ["Beach", "Water Sports", "Shopping", "Crowded", "Popular"],
+    "coordinates": {
+      "lat": 15.5434,
+      "lng": 73.7554
+    },
+    "opening_hours": "00:00",
+    "closing_hours": "23:59",
+    "image_url": "https://example.com/calangute-beach.jpg",
+    "address": "Calangute, North Goa, Goa 403516"
+  },
+  {
+    "name": "Palolem Beach",
+    "description": "Scenic crescent-shaped beach in South Goa, perfect for relaxation with beach huts and calm waters.",
+    "category": "attraction",
+    "entry_fee": 0,
+    "rating": 4.6,
+    "average_time": 240,
+    "best_time_to_visit": "Afternoon",
+    "tags": ["Beach", "Peaceful", "Scenic", "Kayaking", "Dolphin Watching"],
+    "coordinates": {
+      "lat": 15.0100,
+      "lng": 74.0232
+    },
+    "opening_hours": "00:00",
+    "closing_hours": "23:59",
+    "image_url": "https://example.com/palolem-beach.jpg",
+    "address": "Palolem, South Goa, Goa 403702"
+  },
+  {
+    "name": "Anjuna Beach",
+    "description": "Famous for Wednesday flea market, trance parties, and stunning red cliffs backdrop.",
+    "category": "attraction",
+    "entry_fee": 0,
+    "rating": 4.4,
+    "average_time": 180,
+    "best_time_to_visit": "Evening",
+    "tags": ["Beach", "Flea Market", "Nightlife", "Scenic", "Hippie Culture"],
+    "coordinates": {
+      "lat": 15.5735,
+      "lng": 73.7401
+    },
+    "opening_hours": "00:00",
+    "closing_hours": "23:59",
+    "image_url": "https://example.com/anjuna-beach.jpg",
+    "address": "Anjuna, North Goa, Goa 403509"
+  },
+  {
+    "name": "Basilica of Bom Jesus",
+    "description": "UNESCO World Heritage Site housing mortal remains of St. Francis Xavier, stunning baroque architecture.",
+    "category": "attraction",
+    "entry_fee": 0,
+    "rating": 4.6,
+    "average_time": 60,
+    "best_time_to_visit": "Morning",
+    "tags": ["UNESCO", "Heritage", "Religious", "Architecture", "History"],
+    "coordinates": {
       "lat": 15.5008,
-      "lng": 73.9113
+      "lng": 73.9115
     },
-    {
-      "name": "Fort Aguada",
-      "category": "attraction",
-      "rating": 4.5,
-      "opening_hours": "09:30",
-      "closing_hours": "18:00",
-      "address": "Candolim, Goa 403515",
+    "opening_hours": "09:00",
+    "closing_hours": "18:30",
+    "image_url": "https://example.com/bom-jesus.jpg",
+    "address": "Old Goa, Goa 403402"
+  },
+  {
+    "name": "Fort Aguada",
+    "description": "17th-century Portuguese fort with lighthouse, panoramic sea views, and well-preserved structure.",
+    "category": "attraction",
+    "entry_fee": 25,
+    "rating": 4.5,
+    "average_time": 120,
+    "best_time_to_visit": "Evening",
+    "tags": ["Fort", "Heritage", "Lighthouse", "Sunset", "Photography"],
+    "coordinates": {
       "lat": 15.4909,
       "lng": 73.7730
     },
-    {
-      "name": "Dudhsagar Falls",
-      "category": "attraction",
-      "rating": 4.7,
-      "opening_hours": "06:00",
-      "closing_hours": "18:00",
-      "address": "Mollem, Goa 403410",
+    "opening_hours": "09:30",
+    "closing_hours": "18:00",
+    "image_url": "https://example.com/fort-aguada.jpg",
+    "address": "Candolim, North Goa, Goa 403515"
+  },
+  {
+    "name": "Dudhsagar Waterfalls",
+    "description": "Spectacular four-tiered waterfall cascading from 310m height, accessible via jeep safari through forest.",
+    "category": "attraction",
+    "entry_fee": 400,
+    "rating": 4.7,
+    "average_time": 300,
+    "best_time_to_visit": "Morning",
+    "tags": ["Waterfall", "Nature", "Trekking", "Adventure", "Photography"],
+    "coordinates": {
       "lat": 15.3144,
       "lng": 74.3144
     },
-    {
-      "name": "Anjuna Beach",
-      "category": "attraction",
-      "rating": 4.3,
-      "opening_hours": "00:00",
-      "closing_hours": "23:59",
-      "address": "Anjuna, Goa 403509",
+    "opening_hours": "08:00",
+    "closing_hours": "17:00",
+    "image_url": "https://example.com/dudhsagar.jpg",
+    "address": "Mollem, South Goa, Goa 403410"
+  },
+  {
+    "name": "Chapora Fort",
+    "description": "Historic fort offering breathtaking views of Vagator Beach and Arabian Sea, famous from Bollywood movies.",
+    "category": "attraction",
+    "entry_fee": 0,
+    "rating": 4.3,
+    "average_time": 90,
+    "best_time_to_visit": "Evening",
+    "tags": ["Fort", "Sunset", "Photography", "Heritage", "Panoramic Views"],
+    "coordinates": {
+      "lat": 15.6005,
+      "lng": 73.7343
+    },
+    "opening_hours": "08:00",
+    "closing_hours": "18:00",
+    "image_url": "https://example.com/chapora-fort.jpg",
+    "address": "Chapora, North Goa, Goa 403509"
+  },
+  {
+    "name": "Spice Plantation Tour",
+    "description": "Guided tour through aromatic spice gardens with traditional Goan lunch and elephant rides.",
+    "category": "attraction",
+    "entry_fee": 500,
+    "rating": 4.4,
+    "average_time": 180,
+    "best_time_to_visit": "Morning",
+    "tags": ["Nature", "Educational", "Spices", "Culture", "Family"],
+    "coordinates": {
+      "lat": 15.4909,
+      "lng": 73.9115
+    },
+    "opening_hours": "09:00",
+    "closing_hours": "17:00",
+    "image_url": "https://example.com/spice-plantation.jpg",
+    "address": "Ponda, North Goa, Goa 403401"
+  },
+  {
+    "name": "Thalassa",
+    "description": "Iconic Greek restaurant with stunning clifftop views, authentic Mediterranean cuisine, and live music.",
+    "category": "food",
+    "entry_fee": 1500,
+    "rating": 4.6,
+    "average_time": 120,
+    "best_time_to_visit": "Evening",
+    "tags": ["Greek", "Mediterranean", "Sunset Views", "Fine Dining", "Romantic"],
+    "coordinates": {
+      "lat": 15.6005,
+      "lng": 73.7343
+    },
+    "opening_hours": "18:00",
+    "closing_hours": "23:30",
+    "image_url": "https://example.com/thalassa.jpg",
+    "address": "Vagator, North Goa, Goa 403509"
+  },
+  {
+    "name": "Britto's",
+    "description": "Famous beach shack serving fresh seafood, Goan specialties, and continental dishes since 1964.",
+    "category": "food",
+    "entry_fee": 800,
+    "rating": 4.3,
+    "average_time": 90,
+    "best_time_to_visit": "Afternoon",
+    "tags": ["Beach Shack", "Seafood", "Goan Cuisine", "Casual", "Popular"],
+    "coordinates": {
+      "lat": 15.5557,
+      "lng": 73.7516
+    },
+    "opening_hours": "08:00",
+    "closing_hours": "23:00",
+    "image_url": "https://example.com/brittos.jpg",
+    "address": "Baga Beach, North Goa, Goa 403516"
+  },
+  {
+    "name": "Gunpowder",
+    "description": "Rustic restaurant in garden setting, specializing in authentic South Indian and Goan cuisine.",
+    "category": "food",
+    "entry_fee": 1000,
+    "rating": 4.5,
+    "average_time": 90,
+    "best_time_to_visit": "Evening",
+    "tags": ["South Indian", "Goan Cuisine", "Garden Setting", "Authentic", "Spicy"],
+    "coordinates": {
+      "lat": 15.2832,
+      "lng": 73.9595
+    },
+    "opening_hours": "12:00",
+    "closing_hours": "22:30",
+    "image_url": "https://example.com/gunpowder.jpg",
+    "address": "Assagao, North Goa, Goa 403507"
+  },
+  {
+    "name": "Fisherman's Wharf",
+    "description": "Riverside restaurant serving Goan, seafood, and pan-Asian dishes with live music.",
+    "category": "food",
+    "entry_fee": 1200,
+    "rating": 4.4,
+    "average_time": 120,
+    "best_time_to_visit": "Evening",
+    "tags": ["Seafood", "Goan Cuisine", "Riverside", "Live Music", "Family"],
+    "coordinates": {
+      "lat": 15.5434,
+      "lng": 73.7554
+    },
+    "opening_hours": "12:00",
+    "closing_hours": "23:30",
+    "image_url": "https://example.com/fishermans-wharf.jpg",
+    "address": "Multiple locations, Goa"
+  },
+  {
+    "name": "Vinayak Family Restaurant",
+    "description": "Budget-friendly local eatery famous for authentic Goan fish curry rice and thalis.",
+    "category": "food",
+    "entry_fee": 300,
+    "rating": 4.3,
+    "average_time": 60,
+    "best_time_to_visit": "Afternoon",
+    "tags": ["Goan Cuisine", "Budget-Friendly", "Local", "Seafood", "Authentic"],
+    "coordinates": {
+      "lat": 15.2832,
+      "lng": 73.9595
+    },
+    "opening_hours": "11:30",
+    "closing_hours": "22:00",
+    "image_url": "https://example.com/vinayak.jpg",
+    "address": "Assagao, North Goa, Goa 403507"
+  },
+  {
+    "name": "Anjuna Flea Market",
+    "description": "Famous Wednesday market with handicrafts, jewelry, clothes, and souvenirs from around India.",
+    "category": "shopping",
+    "entry_fee": 0,
+    "rating": 4.4,
+    "average_time": 240,
+    "best_time_to_visit": "Afternoon",
+    "tags": ["Flea Market", "Handicrafts", "Souvenirs", "Local", "Bargaining"],
+    "coordinates": {
       "lat": 15.5735,
       "lng": 73.7401
     },
-    {
-      "name": "Calangute Beach",
-      "category": "attraction",
-      "rating": 4.2,
-      "opening_hours": "00:00",
-      "closing_hours": "23:59",
-      "address": "Calangute, Goa 403516",
-      "lat": 15.5460,
-      "lng": 73.7551
+    "opening_hours": "08:00",
+    "closing_hours": "19:00",
+    "image_url": "https://example.com/anjuna-market.jpg",
+    "address": "Anjuna, North Goa, Goa 403509"
+  },
+  {
+    "name": "Mapusa Friday Market",
+    "description": "Authentic local market with fresh produce, spices, fish, clothes, and household items.",
+    "category": "shopping",
+    "entry_fee": 0,
+    "rating": 4.3,
+    "average_time": 120,
+    "best_time_to_visit": "Morning",
+    "tags": ["Local Market", "Fresh Produce", "Spices", "Authentic", "Budget-Friendly"],
+    "coordinates": {
+      "lat": 15.5909,
+      "lng": 73.8115
     },
-    {
-      "name": "Se Cathedral",
-      "category": "attraction",
-      "rating": 4.5,
-      "opening_hours": "07:30",
-      "closing_hours": "18:00",
-      "address": "Old Goa, Goa 403402",
-      "lat": 15.5008,
-      "lng": 73.9113
+    "opening_hours": "08:00",
+    "closing_hours": "14:00",
+    "image_url": "https://example.com/mapusa-market.jpg",
+    "address": "Mapusa, North Goa, Goa 403507"
+  },
+  {
+    "name": "Saturday Night Market",
+    "description": "Evening market at Arpora featuring shopping, live music, food stalls, and entertainment.",
+    "category": "shopping",
+    "entry_fee": 100,
+    "rating": 4.2,
+    "average_time": 180,
+    "best_time_to_visit": "Evening",
+    "tags": ["Night Market", "Entertainment", "Food", "Shopping", "Live Music"],
+    "coordinates": {
+      "lat": 15.5651,
+      "lng": 73.7689
     },
-    {
-      "name": "Chapora Fort",
-      "category": "attraction",
-      "rating": 4.3,
-      "opening_hours": "08:00",
-      "closing_hours": "17:30",
-      "address": "Chapora, Goa 403509",
-      "lat": 15.6003,
-      "lng": 73.7364
-    },
-    {
-      "name": "Thalassa",
-      "category": "food",
-      "rating": 4.6,
-      "opening_hours": "12:00",
-      "closing_hours": "23:30",
-      "address": "Siolim, Goa 403517",
-      "lat": 15.5969,
-      "lng": 73.7598
-    },
-    {
-      "name": "Pousada by the Beach",
-      "category": "food",
-      "rating": 4.5,
-      "opening_hours": "12:00",
-      "closing_hours": "23:00",
-      "address": "Calangute, Goa 403516",
-      "lat": 15.5460,
-      "lng": 73.7551
-    },
-    {
-      "name": "Fisherman's Wharf",
-      "category": "food",
-      "rating": 4.4,
-      "opening_hours": "12:00",
-      "closing_hours": "23:30",
-      "address": "Cavelossim, Goa 403731",
+    "opening_hours": "18:00",
+    "closing_hours": "23:00",
+    "image_url": "https://example.com/saturday-market.jpg",
+    "address": "Arpora, North Goa, Goa 403518"
+  },
+  {
+    "name": "Taj Exotica Resort & Spa",
+    "description": "Luxury beachfront resort with Mediterranean architecture, world-class spa, and pristine private beach.",
+    "category": "hotel",
+    "entry_fee": 18000,
+    "rating": 4.8,
+    "average_time": 1440,
+    "best_time_to_visit": "Anytime",
+    "tags": ["Luxury", "5-Star", "Beach Resort", "Spa", "Romantic"],
+    "coordinates": {
       "lat": 15.1667,
       "lng": 73.9333
     },
-    {
-      "name": "Britto's",
-      "category": "food",
-      "rating": 4.3,
-      "opening_hours": "08:00",
-      "closing_hours": "23:00",
-      "address": "Baga Beach, Goa 403516",
-      "lat": 15.5559,
-      "lng": 73.7517
+    "opening_hours": "00:00",
+    "closing_hours": "23:59",
+    "image_url": "https://example.com/taj-exotica-goa.jpg",
+    "address": "Benaulim, South Goa, Goa 403716"
+  },
+  {
+    "name": "The Leela Goa",
+    "description": "Sprawling luxury resort on pristine beach with lagoons, multiple restaurants, and golf course.",
+    "category": "hotel",
+    "entry_fee": 16000,
+    "rating": 4.7,
+    "average_time": 1440,
+    "best_time_to_visit": "Anytime",
+    "tags": ["Luxury", "5-Star", "Beach Resort", "Golf", "Spa"],
+    "coordinates": {
+      "lat": 15.2655,
+      "lng": 73.9454
     },
-    {
-      "name": "Vinayak Family Restaurant",
-      "category": "food",
-      "rating": 4.2,
-      "opening_hours": "11:00",
-      "closing_hours": "23:00",
-      "address": "Assagao, Goa 403507",
-      "lat": 15.5969,
-      "lng": 73.7711
+    "opening_hours": "00:00",
+    "closing_hours": "23:59",
+    "image_url": "https://example.com/leela-goa.jpg",
+    "address": "Mobor, South Goa, Goa 403731"
+  },
+  {
+    "name": "W Goa",
+    "description": "Trendy luxury resort with modern design, multiple pools, vibrant nightlife, and beachfront location.",
+    "category": "hotel",
+    "entry_fee": 14000,
+    "rating": 4.6,
+    "average_time": 1440,
+    "best_time_to_visit": "Anytime",
+    "tags": ["Luxury", "5-Star", "Modern", "Party", "Beach Resort"],
+    "coordinates": {
+      "lat": 15.6333,
+      "lng": 73.7333
     },
-    {
-      "name": "Anjuna Flea Market",
-      "category": "shopping",
-      "rating": 4.4,
-      "opening_hours": "08:00",
-      "closing_hours": "19:00",
-      "address": "Anjuna, Goa 403509",
-      "lat": 15.5735,
-      "lng": 73.7401
-    },
-    {
-      "name": "Mapusa Market",
-      "category": "shopping",
-      "rating": 4.2,
-      "opening_hours": "08:00",
-      "closing_hours": "20:00",
-      "address": "Mapusa, Goa 403507",
-      "lat": 15.5969,
-      "lng": 73.8086
-    },
-    {
-      "name": "Saturday Night Market",
-      "category": "shopping",
-      "rating": 4.3,
-      "opening_hours": "18:00",
-      "closing_hours": "23:30",
-      "address": "Arpora, Goa 403516",
-      "lat": 15.5735,
-      "lng": 73.7598
-    },
-    {
-      "name": "Mackie's Night Bazaar",
-      "category": "shopping",
-      "rating": 4.1,
-      "opening_hours": "18:00",
-      "closing_hours": "23:00",
-      "address": "Baga, Goa 403516",
-      "lat": 15.5559,
-      "lng": 73.7517
-    },
-    {
-      "name": "Taj Exotica",
-      "category": "hotel",
-      "rating": 4.7,
-      "opening_hours": "00:00",
-      "closing_hours": "23:59",
-      "address": "Benaulim, Goa 403716",
-      "lat": 15.2667,
-      "lng": 73.9167
-    },
-    {
-      "name": "The Leela Goa",
-      "category": "hotel",
-      "rating": 4.8,
-      "opening_hours": "00:00",
-      "closing_hours": "23:59",
-      "address": "Cavelossim, Goa 403731",
-      "lat": 15.1667,
-      "lng": 73.9333
-    }
-  ]
-}
+    "opening_hours": "00:00",
+    "closing_hours": "23:59",
+    "image_url": "https://example.com/w-goa.jpg",
+    "address": "Vagator, North Goa, Goa 403509"
+  }
+]

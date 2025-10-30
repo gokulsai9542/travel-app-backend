@@ -195,8 +195,26 @@ if os.path.exists(data_dir):
         if filename.endswith('.json'):
             city_name = filename.replace('.json', '')
             with open(os.path.join(data_dir, filename), 'r', encoding='utf-8') as f:
-                cities_data[city_name] = json.load(f)
+                city_data = json.load(f)
+                # Handle both list format (direct places) and dict format (with metadata)
+                if isinstance(city_data, list):
+                    cities_data[city_name] = {
+                        'name': city_name.title(),
+                        'places': city_data,
+                        'latitude': 28.6139,  # Default to Delhi
+                        'longitude': 77.2090
+                    }
+                else:
+                    cities_data[city_name] = city_data
     print(f"📂 Loaded {len(cities_data)} cities")
+
+# ==================== Data Conversion Helper ====================
+def normalize_place_coordinates(place):
+    """Convert between coordinate formats: coordinates.lat/lng ↔ latitude/longitude"""
+    if 'coordinates' in place and isinstance(place['coordinates'], dict):
+        place['latitude'] = place['coordinates'].get('lat', place.get('latitude', 0))
+        place['longitude'] = place['coordinates'].get('lng', place.get('longitude', 0))
+    return place
 
 # ==================== Weather Functions ====================
 def get_weather_weatherapi(lat, lon):
@@ -305,7 +323,13 @@ def get_weather_fallback():
 def calculate_tomtom_route(origin, destination):
     """Calculate route using TomTom API"""
     try:
-        locations = f"{origin['lat']},{origin['lng']}:{destination['lat']},{destination['lng']}"
+        # Handle both formats: direct lat/lng and coordinates object
+        origin_lat = origin.get('lat') or origin.get('latitude')
+        origin_lng = origin.get('lng') or origin.get('longitude')
+        dest_lat = destination.get('lat') or destination.get('latitude')
+        dest_lng = destination.get('lng') or destination.get('longitude')
+        
+        locations = f"{origin_lat},{origin_lng}:{dest_lat},{dest_lng}"
         route_url = f"https://api.tomtom.com/routing/1/calculateRoute/{locations}/json"
         params = {
             'key': TOMTOM_API_KEY,
@@ -338,8 +362,11 @@ def calculate_tomtom_route(origin, destination):
 
 def calculate_route_fallback(origin, destination):
     """Fallback route calculation using Haversine formula"""
-    lat1, lon1 = origin['lat'], origin['lng']
-    lat2, lon2 = destination['lat'], destination['lng']
+    # Handle both coordinate formats
+    lat1 = origin.get('lat') or origin.get('latitude')
+    lon1 = origin.get('lng') or origin.get('longitude')
+    lat2 = destination.get('lat') or destination.get('latitude')
+    lon2 = destination.get('lng') or destination.get('longitude')
     
     R = 6371  # Earth radius in km
     dlat = math.radians(lat2 - lat1)
@@ -362,7 +389,7 @@ def home():
     return jsonify({
         'status': 'online',
         'message': 'Travel Planner API with ML',
-        'version': '2.1',
+        'version': '2.2',
         'backend_url': 'https://travel-app-backend-xhd2.onrender.com',
         'endpoints': {
             'cities': '/api/cities',
@@ -409,7 +436,7 @@ def get_cities():
 
 @app.route('/api/places/<city>', methods=['GET'])
 def get_places(city):
-    """Get all places for a city"""
+    """Get all places for a city with optional filters"""
     if city not in cities_data:
         return jsonify({'error': 'City not found'}), 404
     
@@ -417,7 +444,7 @@ def get_places(city):
     max_budget = request.args.get('max_budget', type=int)
     indoor_only = request.args.get('indoor', type=bool)
     
-    places = cities_data[city].get('places', [])
+    places = [normalize_place_coordinates(p) for p in cities_data[city].get('places', [])]
     
     if category:
         places = [p for p in places if p.get('category') == category]
@@ -439,8 +466,8 @@ def get_weather(city):
         return jsonify({'error': 'City not found'}), 404
     
     city_info = cities_data[city]
-    lat = city_info.get('latitude', 0)
-    lon = city_info.get('longitude', 0)
+    lat = city_info.get('latitude', 28.6139)
+    lon = city_info.get('longitude', 77.2090)
     
     if WEATHER_PROVIDER == 'weatherapi':
         return jsonify(get_weather_weatherapi(lat, lon))
@@ -489,7 +516,7 @@ def generate_itinerary():
             return jsonify({'error': 'City not found'}), 404
         
         city_data = cities_data[city]
-        places = city_data.get('places', [])
+        places = [normalize_place_coordinates(p) for p in city_data.get('places', [])]
         
         # Rank places using ML
         ranked_places = ml_api.rank_places(places, preferences)
@@ -506,10 +533,11 @@ def generate_itinerary():
             prediction = item['prediction']
             
             if current_pos:
-                route_data = calculate_tomtom_route(current_pos, {
-                    'lat': place.get('latitude'),
-                    'lng': place.get('longitude')
-                })
+                dest_coords = {
+                    'latitude': place.get('latitude') or place.get('coordinates', {}).get('lat'),
+                    'longitude': place.get('longitude') or place.get('coordinates', {}).get('lng')
+                }
+                route_data = calculate_tomtom_route(current_pos, dest_coords)
                 travel_time = route_data['duration_minutes']
                 distance = route_data['distance_km']
             else:
@@ -533,8 +561,8 @@ def generate_itinerary():
                 total_cost += place.get('entry_fee', 0)
                 total_distance += distance
                 current_pos = {
-                    'lat': place.get('latitude'),
-                    'lng': place.get('longitude')
+                    'latitude': place.get('latitude') or place.get('coordinates', {}).get('lat'),
+                    'longitude': place.get('longitude') or place.get('coordinates', {}).get('lng')
                 }
             else:
                 break
@@ -556,7 +584,7 @@ def generate_itinerary():
 
 @app.route('/api/budget/estimate', methods=['POST'])
 def estimate_budget():
-    """Estimate budget"""
+    """Estimate budget for trip"""
     data = request.json
     city = data.get('city')
     days = data.get('days', 1)
@@ -580,7 +608,7 @@ def estimate_budget():
     max_places_per_day = 5
     attraction_cost = sum(
         place.get('entry_fee', 0) 
-        for place in sorted(places, key=lambda x: x.get('popularity', 0), reverse=True)[:max_places_per_day * days]
+        for place in sorted(places, key=lambda x: x.get('rating', 0), reverse=True)[:max_places_per_day * days]
     )
     
     accommodation_total = rates['accommodation'] * days * people
@@ -607,7 +635,7 @@ def estimate_budget():
 
 @app.route('/api/search', methods=['GET'])
 def search_places():
-    """Search places"""
+    """Search places across all cities"""
     query = request.args.get('q', '').lower()
     category = request.args.get('category')
     max_budget = request.args.get('max_budget', type=int)
@@ -616,6 +644,8 @@ def search_places():
     
     for city_name, city_data in cities_data.items():
         for place in city_data.get('places', []):
+            place = normalize_place_coordinates(place)
+            
             if query and query not in place.get('name', '').lower() and query not in place.get('description', '').lower():
                 continue
             
@@ -636,7 +666,7 @@ def search_places():
 
 @app.route('/api/route/tomtom', methods=['POST'])
 def calculate_route():
-    """Calculate route"""
+    """Calculate route between two points"""
     data = request.json
     origin = data.get('origin')
     destination = data.get('destination')

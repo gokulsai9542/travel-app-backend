@@ -1,235 +1,254 @@
-{
-  "city": "Vijayawada",
-  "places": [
-    {
-      "name": "Kanaka Durga Temple",
-      "category": "attraction",
-      "rating": 4.7,
-      "opening_hours": "05:00",
-      "closing_hours": "20:00",
-      "address": "Indrakeeladri Hill, Vijayawada, Andhra Pradesh",
+[
+  {
+    "name": "Kanaka Durga Temple",
+    "description": "Ancient hilltop temple dedicated to Goddess Kanaka Durga, offering panoramic views of the Krishna River and city.",
+    "category": "attraction",
+    "entry_fee": 0,
+    "rating": 4.6,
+    "average_time": 120,
+    "best_time_to_visit": "Morning",
+    "tags": ["Religious", "Heritage", "Spiritual", "Panoramic Views", "Culture"],
+    "coordinates": {
+      "lat": 16.5193,
+      "lng": 80.6305
+    },
+    "opening_hours": "04:00",
+    "closing_hours": "21:00",
+    "image_url": "https://example.com/kanaka-durga.jpg",
+    "address": "Indrakeeladri, Vijayawada, Andhra Pradesh 520001"
+  },
+  {
+    "name": "Prakasam Barrage",
+    "description": "Iconic bridge across Krishna River with beautiful views, especially stunning during sunset with illuminated fountains.",
+    "category": "attraction",
+    "entry_fee": 0,
+    "rating": 4.4,
+    "average_time": 60,
+    "best_time_to_visit": "Evening",
+    "tags": ["Landmark", "Sunset", "Photography", "Engineering", "Walking"],
+    "coordinates": {
+      "lat": 16.5061,
+      "lng": 80.6480
+    },
+    "opening_hours": "00:00",
+    "closing_hours": "23:59",
+    "image_url": "https://example.com/prakasam-barrage.jpg",
+    "address": "Prakasam Barrage, Vijayawada, Andhra Pradesh 520003"
+  },
+  {
+    "name": "Undavalli Caves",
+    "description": "Ancient rock-cut caves dating back to 7th century featuring magnificent reclining Vishnu statue.",
+    "category": "attraction",
+    "entry_fee": 25,
+    "rating": 4.5,
+    "average_time": 90,
+    "best_time_to_visit": "Morning",
+    "tags": ["Heritage", "Architecture", "History", "Caves", "Photography"],
+    "coordinates": {
+      "lat": 16.4833,
+      "lng": 80.5833
+    },
+    "opening_hours": "09:00",
+    "closing_hours": "18:00",
+    "image_url": "https://example.com/undavalli-caves.jpg",
+    "address": "Undavalli, Guntur, Andhra Pradesh 522501"
+  },
+  {
+    "name": "Bhavani Island",
+    "description": "Largest river island in India on Krishna River, offering water sports, boating, and recreational activities.",
+    "category": "attraction",
+    "entry_fee": 150,
+    "rating": 4.2,
+    "average_time": 240,
+    "best_time_to_visit": "Afternoon",
+    "tags": ["Island", "Water Sports", "Family", "Recreation", "Boating"],
+    "coordinates": {
+      "lat": 16.4833,
+      "lng": 80.6333
+    },
+    "opening_hours": "10:00",
+    "closing_hours": "18:00",
+    "image_url": "https://example.com/bhavani-island.jpg",
+    "address": "Bhavani Island, Vijayawada, Andhra Pradesh 520007"
+  },
+  {
+    "name": "Kondapalli Fort",
+    "description": "14th-century hilltop fort with historical significance and famous for traditional wooden toys.",
+    "category": "attraction",
+    "entry_fee": 15,
+    "rating": 4.0,
+    "average_time": 120,
+    "best_time_to_visit": "Morning",
+    "tags": ["Fort", "History", "Heritage", "Trekking", "Photography"],
+    "coordinates": {
+      "lat": 16.6167,
+      "lng": 80.5333
+    },
+    "opening_hours": "08:00",
+    "closing_hours": "18:00",
+    "image_url": "https://example.com/kondapalli-fort.jpg",
+    "address": "Kondapalli, Krishna District, Andhra Pradesh 521228"
+  },
+  {
+    "name": "Victoria Museum",
+    "description": "Historical museum showcasing ancient sculptures, weapons, and artifacts from Buddhist period.",
+    "category": "attraction",
+    "entry_fee": 10,
+    "rating": 4.1,
+    "average_time": 90,
+    "best_time_to_visit": "Morning",
+    "tags": ["Museum", "History", "Culture", "Education", "Art"],
+    "coordinates": {
+      "lat": 16.5061,
+      "lng": 80.6480
+    },
+    "opening_hours": "10:30",
+    "closing_hours": "17:00",
+    "image_url": "https://example.com/victoria-museum.jpg",
+    "address": "MG Road, Vijayawada, Andhra Pradesh 520010"
+  },
+  {
+    "name": "Sweet Magic",
+    "description": "Popular restaurant chain known for South Indian tiffins, sweets, and authentic Andhra cuisine.",
+    "category": "food",
+    "entry_fee": 250,
+    "rating": 4.3,
+    "average_time": 60,
+    "best_time_to_visit": "Morning",
+    "tags": ["South Indian", "Sweets", "Breakfast", "Andhra Cuisine", "Family"],
+    "coordinates": {
       "lat": 16.5062,
       "lng": 80.6480
     },
-    {
-      "name": "Prakasam Barrage",
-      "category": "attraction",
-      "rating": 4.5,
-      "opening_hours": "06:00",
-      "closing_hours": "22:00",
-      "address": "Krishna River, Vijayawada, Andhra Pradesh",
-      "lat": 16.5164,
-      "lng": 80.6213
+    "opening_hours": "07:00",
+    "closing_hours": "22:30",
+    "image_url": "https://example.com/sweet-magic.jpg",
+    "address": "Multiple locations, Vijayawada"
+  },
+  {
+    "name": "Babai Hotel",
+    "description": "Legendary Andhra restaurant famous for spicy biryanis, gongura mutton, and authentic non-veg dishes.",
+    "category": "food",
+    "entry_fee": 350,
+    "rating": 4.4,
+    "average_time": 75,
+    "best_time_to_visit": "Afternoon",
+    "tags": ["Andhra Cuisine", "Non-Veg", "Biryani", "Spicy", "Local"],
+    "coordinates": {
+      "lat": 16.5062,
+      "lng": 80.6480
     },
-    {
-      "name": "Bhavani Island",
-      "category": "attraction",
-      "rating": 4.4,
-      "opening_hours": "10:00",
-      "closing_hours": "18:00",
-      "address": "Krishna River, Vijayawada, Andhra Pradesh",
-      "lat": 16.5181,
-      "lng": 80.6219
+    "opening_hours": "11:00",
+    "closing_hours": "23:00",
+    "image_url": "https://example.com/babai-hotel.jpg",
+    "address": "Eluru Road, Vijayawada, Andhra Pradesh 520007"
+  },
+  {
+    "name": "Southern Spice",
+    "description": "Fine dining restaurant at Taj Gateway offering multi-cuisine with focus on South Indian flavors.",
+    "category": "food",
+    "entry_fee": 1200,
+    "rating": 4.5,
+    "average_time": 90,
+    "best_time_to_visit": "Evening",
+    "tags": ["Fine Dining", "Multi-Cuisine", "Luxury", "South Indian", "Buffet"],
+    "coordinates": {
+      "lat": 16.5062,
+      "lng": 80.6480
     },
-    {
-      "name": "Mogalrajapuram Caves",
-      "category": "attraction",
-      "rating": 4.3,
-      "opening_hours": "08:30",
-      "closing_hours": "17:00",
-      "address": "Mogalrajapuram, Vijayawada, Andhra Pradesh",
-      "lat": 16.5169,
-      "lng": 80.6542
+    "opening_hours": "12:30",
+    "closing_hours": "23:00",
+    "image_url": "https://example.com/southern-spice-vjw.jpg",
+    "address": "Taj Gateway, MG Road, Vijayawada, Andhra Pradesh 520010"
+  },
+  {
+    "name": "Barbeque Nation",
+    "description": "Popular buffet restaurant with live grills, extensive spread of veg and non-veg dishes.",
+    "category": "food",
+    "entry_fee": 800,
+    "rating": 4.2,
+    "average_time": 120,
+    "best_time_to_visit": "Evening",
+    "tags": ["Buffet", "Barbecue", "Multi-Cuisine", "Family", "Grills"],
+    "coordinates": {
+      "lat": 16.5062,
+      "lng": 80.6480
     },
-    {
-      "name": "Bapu Museum",
-      "category": "attraction",
-      "rating": 4.2,
-      "opening_hours": "09:30",
-      "closing_hours": "17:00",
-      "address": "M G Road, Vijayawada, Andhra Pradesh",
-      "lat": 16.5150,
-      "lng": 80.6437
+    "opening_hours": "12:00",
+    "closing_hours": "23:00",
+    "image_url": "https://example.com/barbeque-nation-vjw.jpg",
+    "address": "MG Road, Vijayawada, Andhra Pradesh 520010"
+  },
+  {
+    "name": "Besant Road Shopping",
+    "description": "Main shopping street with textile stores, jewelry shops, and traditional Andhra handicrafts.",
+    "category": "shopping",
+    "entry_fee": 0,
+    "rating": 4.3,
+    "average_time": 180,
+    "best_time_to_visit": "Afternoon",
+    "tags": ["Shopping", "Textiles", "Jewelry", "Traditional", "Local"],
+    "coordinates": {
+      "lat": 16.5062,
+      "lng": 80.6480
     },
-    {
-      "name": "Gandhi Hill",
-      "category": "attraction",
-      "rating": 4.2,
-      "opening_hours": "06:00",
-      "closing_hours": "20:00",
-      "address": "Tarapet, Vijayawada, Andhra Pradesh",
-      "lat": 16.5178,
-      "lng": 80.6449
+    "opening_hours": "10:00",
+    "closing_hours": "21:00",
+    "image_url": "https://example.com/besant-road.jpg",
+    "address": "Besant Road, Vijayawada, Andhra Pradesh 520010"
+  },
+  {
+    "name": "PVR Cinemas - Leplads Mall",
+    "description": "Modern shopping mall with retail stores, multiplex cinema, food court and entertainment options.",
+    "category": "shopping",
+    "entry_fee": 0,
+    "rating": 4.2,
+    "average_time": 240,
+    "best_time_to_visit": "Evening",
+    "tags": ["Mall", "Shopping", "Cinema", "Entertainment", "Family"],
+    "coordinates": {
+      "lat": 16.5062,
+      "lng": 80.6480
     },
-    {
-      "name": "Mangalagiri Temple",
-      "category": "attraction",
-      "rating": 4.4,
-      "opening_hours": "04:30",
-      "closing_hours": "21:00",
-      "address": "Mangalagiri, Guntur District, Andhra Pradesh",
-      "lat": 16.4230,
-      "lng": 80.6400
+    "opening_hours": "10:00",
+    "closing_hours": "22:00",
+    "image_url": "https://example.com/leplads-mall.jpg",
+    "address": "Benz Circle, Vijayawada, Andhra Pradesh 520010"
+  },
+  {
+    "name": "Taj Gateway Hotel",
+    "description": "Premium business hotel with modern amenities, multiple dining options, and excellent service.",
+    "category": "hotel",
+    "entry_fee": 6500,
+    "rating": 4.5,
+    "average_time": 1440,
+    "best_time_to_visit": "Anytime",
+    "tags": ["Luxury", "Business", "4-Star", "Fine Dining", "Pool"],
+    "coordinates": {
+      "lat": 16.5062,
+      "lng": 80.6480
     },
-    {
-      "name": "Undavalli Caves",
-      "category": "attraction",
-      "rating": 4.3,
-      "opening_hours": "09:00",
-      "closing_hours": "17:00",
-      "address": "Undavalli, Vijayawada, Andhra Pradesh",
-      "lat": 16.3917,
-      "lng": 80.5786
+    "opening_hours": "00:00",
+    "closing_hours": "23:59",
+    "image_url": "https://example.com/taj-gateway-vjw.jpg",
+    "address": "MG Road, Vijayawada, Andhra Pradesh 520010"
+  },
+  {
+    "name": "The Gateway Hotel",
+    "description": "Comfortable hotel with contemporary rooms, rooftop restaurant, and business facilities.",
+    "category": "hotel",
+    "entry_fee": 5500,
+    "rating": 4.3,
+    "average_time": 1440,
+    "best_time_to_visit": "Anytime",
+    "tags": ["Business", "Comfort", "4-Star", "Restaurant", "Conference"],
+    "coordinates": {
+      "lat": 16.5062,
+      "lng": 80.6480
     },
-    {
-      "name": "Kondapalli Fort",
-      "category": "attraction",
-      "rating": 4.1,
-      "opening_hours": "10:00",
-      "closing_hours": "18:00",
-      "address": "Kondapalli, Vijayawada, Andhra Pradesh",
-      "lat": 16.6014,
-      "lng": 80.8081
-    },
-    {
-      "name": "Gunadala Matha Shrine",
-      "category": "attraction",
-      "rating": 4.2,
-      "opening_hours": "05:00",
-      "closing_hours": "20:00",
-      "address": "Gunadala, Vijayawada, Andhra Pradesh",
-      "lat": 16.5400,
-      "lng": 80.6460
-    },
-    {
-      "name": "Paritala Anjaneya Temple",
-      "category": "attraction",
-      "rating": 4.5,
-      "opening_hours": "04:30",
-      "closing_hours": "19:00",
-      "address": "Paritala, Andhra Pradesh (near Vijayawada)",
-      "lat": 16.4446,
-      "lng": 80.8200
-    },
-    {
-      "name": "VMC Disney Land / Water Park",
-      "category": "attraction",
-      "rating": 4.0,
-      "opening_hours": "11:00",
-      "closing_hours": "19:00",
-      "address": "Ajit Singh Nagar, Vijayawada, Andhra Pradesh",
-      "lat": 16.4800,
-      "lng": 80.6110
-    },
-    {
-      "name": "Besant Road",
-      "category": "shopping",
-      "rating": 4.0,
-      "opening_hours": "10:00",
-      "closing_hours": "23:00",
-      "address": "Besant Road, Governorpet, Vijayawada, Andhra Pradesh",
-      "lat": 16.5040,
-      "lng": 80.6490
-    },
-    {
-      "name": "PVP Square Mall",
-      "category": "shopping",
-      "rating": 4.3,
-      "opening_hours": "10:00",
-      "closing_hours": "22:00",
-      "address": "M G Road, Labbipet, Vijayawada, Andhra Pradesh",
-      "lat": 16.5052,
-      "lng": 80.6488
-    },
-    {
-      "name": "Trendset Mall",
-      "category": "shopping",
-      "rating": 4.2,
-      "opening_hours": "10:00",
-      "closing_hours": "22:00",
-      "address": "Besant Road, Governorpet, Vijayawada, Andhra Pradesh",
-      "lat": 16.5045,
-      "lng": 80.6460
-    },
-    {
-      "name": "Cross Roads Restaurant",
-      "category": "food",
-      "rating": 4.4,
-      "opening_hours": "11:00",
-      "closing_hours": "22:30",
-      "address": "Moghalrajapuram, Near Madhu Gardens Bus Stop, Vijayawada",
-      "lat": 16.5190,
-      "lng": 80.6520
-    },
-    {
-      "name": "Sree Lakshmi Vilas Modern Cafe",
-      "category": "food",
-      "rating": 4.3,
-      "opening_hours": "06:30",
-      "closing_hours": "22:30",
-      "address": "Katragaddavari Street, Besant Road, Governorpet, Vijayawada",
-      "lat": 16.5080,
-      "lng": 80.6450
-    },
-    {
-      "name": "Lotus Food City",
-      "category": "food",
-      "rating": 4.2,
-      "opening_hours": "12:30",
-      "closing_hours": "23:00",
-      "address": "Seethanagaram, Tadepalli, Vijayawada",
-      "lat": 16.5075,
-      "lng": 80.6160
-    },
-    {
-      "name": "Minerva Coffee Shop",
-      "category": "food",
-      "rating": 4.4,
-      "opening_hours": "07:00",
-      "closing_hours": "22:00",
-      "address": "M G Road, Labbipet, Vijayawada, Andhra Pradesh",
-      "lat": 16.5095,
-      "lng": 80.6425
-    },
-    {
-      "name": "Barbeque Nation Vijayawada",
-      "category": "food",
-      "rating": 4.5,
-      "opening_hours": "12:00",
-      "closing_hours": "23:00",
-      "address": "PVP Square Mall, M G Road, Vijayawada, Andhra Pradesh",
-      "lat": 16.5050,
-      "lng": 80.6485
-    },
-    {
-      "name": "Novotel Vijayawada Varun",
-      "category": "hotel",
-      "rating": 4.8,
-      "opening_hours": "00:00",
-      "closing_hours": "23:59",
-      "address": "Bharathi Nagar, Vijayawada, Andhra Pradesh",
-      "lat": 16.5050,
-      "lng": 80.6220
-    },
-    {
-      "name": "Lemon Tree Premier Vijayawada",
-      "category": "hotel",
-      "rating": 4.7,
-      "opening_hours": "00:00",
-      "closing_hours": "23:59",
-      "address": "Labbipet, Vijayawada, Andhra Pradesh",
-      "lat": 16.5090,
-      "lng": 80.6200
-    },
-    {
-      "name": "The Gateway Hotel MG Road",
-      "category": "hotel",
-      "rating": 4.6,
-      "opening_hours": "00:00",
-      "closing_hours": "23:59",
-      "address": "MG Road, Labbipet, Vijayawada, Andhra Pradesh",
-      "lat": 16.5088,
-      "lng": 80.6428
-    }
-  ]
-}
+    "opening_hours": "00:00",
+    "closing_hours": "23:59",
+    "image_url": "https://example.com/gateway-hotel-vjw.jpg",
+    "address": "Governorpet, Vijayawada, Andhra Pradesh 520002"
+  }
+]
